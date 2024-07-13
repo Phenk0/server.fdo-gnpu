@@ -1,27 +1,28 @@
 const express = require("express");
-const {
-  getAllNews,
-  getNewsArticle,
-  addNewsArticle,
-  updateNewsArticle,
-  deleteNewsArticle,
-} = require("./controllers/newsRoute");
+const morgan = require("morgan");
+
+// importing ROUTES
+const newsRouter = require("./routes/newsRoutes");
+const usersRouter = require("./routes/usersRoutes");
 
 const app = express();
+
+//MIDDLEWARE: log all requests
+if (process.env.NODE_ENV === "development") {
+  app.use(morgan("dev"));
+}
 
 //MIDDLEWARE: modify requests (POST, PUT, PATCH, DELETE) to get json from body
 app.use(express.json());
 
-app.route("/api/v1/news").get(getAllNews).post(addNewsArticle);
-
-//"/api/v1/news/:id/:type?"  TYPE can be optional parameter!
-app
-  .route("/api/v1/news/:id")
-  .get(getNewsArticle)
-  .patch(updateNewsArticle)
-  .delete(deleteNewsArticle);
-
-const port = 3000;
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}...`);
+//MIDDLEWARE: add request time to all requests
+app.use((req, res, next) => {
+  req.requestTime = new Date().toISOString();
+  next();
 });
+
+//apply ROUTES via middlewares
+app.use("/api/v1/news", newsRouter);
+app.use("/api/v1/users", usersRouter);
+
+module.exports = app;
