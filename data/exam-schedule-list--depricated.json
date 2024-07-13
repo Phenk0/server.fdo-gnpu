@@ -1,0 +1,26 @@
+[
+  {
+    "imageUrl":
+    "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fexamination-schedule%2Fdec-012-a.jpeg?alt=media&token=e2b3ed4f-046d-4eba-b5fa-13522fa2105e",
+    "alt": "Розклад: для спеціальності 012, денна ф/н",
+    "title": "Розклад: для спеціальності 012, денна ф/н"
+  },
+  {
+    "imageUrl":
+    "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fexamination-schedule%2Fdec-012-b.jpeg?alt=media&token=6f8425db-2008-4cab-a0f4-a310b0d5fa17",
+    "alt": "Розклад: для спеціальності 012, заочна ф/н",
+    "title": "Розклад: для спеціальності 012, заочна ф/н"
+  },
+  {
+    "imageUrl":
+    "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fexamination-schedule%2Fdec-014-b.jpeg?alt=media&token=db7c6864-34dd-4bcc-ae7d-29393593df50",
+    "alt": "Розклад: для спеціальності 014, денна ф/н",
+    "title": "Розклад: для спеціальності 014, денна ф/н"
+  },
+  {
+    "imageUrl":
+    "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fexamination-schedule%2Fdec-014-a.jpeg?alt=media&token=1f9c8bad-f246-4bbc-8762-402a6c67fae6",
+    "alt": "Розклад: для спеціальності 014, заочна ф/н",
+    "title": "Розклад: для спеціальності 014, заочна ф/н"
+  }
+]

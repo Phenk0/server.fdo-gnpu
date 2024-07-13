@@ -1,0 +1,121 @@
+{
+  "preschoolPractices": [
+    {
+      "title": "Наскрізні програми практик 2023-2024н.р.",
+      "practices": [
+        {
+          "id": "1",
+          "title": "Дошкільна освіта та логопедія",
+          "link": "https://drive.google.com/file/d/1cdOVk9hkWrjojEVuY3uUHFA7GJhMNZXp/view?usp=drive_link"
+        },
+        {
+          "id": "2",
+          "title": "Дошкільна освіта та психологія",
+          "link": "https://drive.google.com/file/d/1OMXlFTR7ldtO9yLzhBw9JjcvB9fg5lhC/view?usp=drive_link"
+        },
+        {
+          "id": "3",
+          "title": "Дошкільна освіта та початкова освіта",
+          "link": "https://drive.google.com/file/d/1sY4GV5CNkFPHmBKKDl9o1xnSQ-IQURJX/view?usp=drive_link"
+        },
+        {
+          "id": "4",
+          "title": "Дошкільна освіта та фізична культура",
+          "link": "https://drive.google.com/file/d/1BGhQ0FhfF44DuAjwTRSC3sYOpFuv493T/view?usp=drive_link"
+        },
+        {
+          "id": "5",
+          "title": "Дошкільна освіта та мова і література (англійська)",
+          "link": "https://drive.google.com/file/d/1VaZwRXgvuSsPEofx0Cug6al32wFIpwTz/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      "title": "Програми педагогічних практик 2022-23н.р.",
+      "practices": [
+        {
+          "id": "unique_id_1",
+          "title": "Безвідривна практика (ознайомлювальна) в ЗДО",
+          "link": "https://docs.google.com/document/d/1cMDwVjGsUHkDS6K7C0Mk0mkuJPKEBFvq/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_2",
+          "title": "Практика в групах дітей раннього віку",
+          "link": "https://docs.google.com/document/d/1bTEAsl0PZkeUUpAUeh0SiCdLElqWb3Jm/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_3",
+          "title": "Літня оздоровча практика в ЗДО",
+          "link": "https://docs.google.com/document/d/1UCLuwU1TfLek4Bb7t0drxpOtZ6qkymt5/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_4",
+          "title": "Навчальна практика в ЗДО",
+          "link": "https://docs.google.com/document/d/1e5vGaxcAIR-50qU0MlAhxRvXMT8VG7AV/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_5",
+          "title": "Методична практика в ЗДО",
+          "link": "https://docs.google.com/document/d/1-8TvbzmRbH28G1n3cxAVv4_AFteImtrN/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_6",
+          "title": "Навчальна практика в ЗДО на робочому місці керівника гуртка іноземної мови (англійської)",
+          "link": "https://docs.google.com/document/d/1iPOnrjYqE1VNbQFWM6uD0NCxqXalsgyX/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_7",
+          "title": "Методична практика в ЗДО на робочому місці керівника гуртка іноземної мови (англійської)",
+          "link": "https://docs.google.com/document/d/1vKF740TXtG1Lb_74GE0uB4_c2pF9knLE/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_8",
+          "title": "Навчальна практика в ЗДО на робочому місці вчителя – логопеда",
+          "link": "https://docs.google.com/document/d/13S5WHNKChPu1DTHJ7p30B_CqnhHlYgPf/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_9",
+          "title": "Методична практика в ЗДО на робочому місці вчителя - логопеда",
+          "link": "https://docs.google.com/document/d/1GklL7JjrBkoLH6sTng8uVROtUK3JmX55/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_10",
+          "title": "Навчальна практика в ЗДО на робочому місці практичного психолога",
+          "link": "https://docs.google.com/document/d/1giwMSsyAd7cJOWXgSC9bAh3Z8pLEunxD/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_11",
+          "title": "Методична практика в ЗДО на робочому місці практичного психолога",
+          "link": "https://docs.google.com/document/d/19hR0q3vsEaRyESwVUhs7o88gdUtR6Fm1/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_12",
+          "title": "Навчальна практика в ЗДО на робочому місці інструктора в фізичного виховання",
+          "link": "https://docs.google.com/document/d/14csFgbOEDsONvJIoTeDSYxGRXkBT9m-i/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        },
+        {
+          "id": "unique_id_13",
+          "title": "Методична практика в ЗДО на робочому місці інструктора в фізичного виховання",
+          "link": "https://docs.google.com/document/d/1p8pxrppKpJnc5j17oEZ5vWyVCSLqaU0W/edit?usp=drive_link&ouid=102100020728277712993&rtpof=true&sd=true"
+        }
+      ]
+    }
+  ],
+  "midSchoolPractices": [
+    {
+      "title": "Наскрізні програми практик 2023-2024н.р.",
+      "practices": [
+        {
+          "id": "unique_id_1",
+          "title": "014 Фізична культура Бакалавр",
+          "link": "https://drive.google.com/file/d/1lG0mdLjpyOiQYmZZNg0nKpG_keNkCuHz/view?usp=drive_link"
+        },
+        {
+          "id": "unique_id_2",
+          "title": "014 Фізична культура Магістр",
+          "link": "https://drive.google.com/file/d/119nheXSjoBA0FfYtj2ZyrK0AzjM7Z_Im/view?usp=drive_link"
+        }
+      ]
+    }
+  ]
+}

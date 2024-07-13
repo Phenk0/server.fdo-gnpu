@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Мірошніченко Каріна Валеріївна",
+    "jobTitle": "Студентський декан",
+    "qualification": "студентка 2 курсу, 21-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-dean.webp?alt=media"
+  },
+  {
+    "name": "Конопля Арсен Ігорович",
+    "jobTitle": "Заступник студентського декана, голова культмасового сектору",
+    "qualification": "студент 3 курсу, 32-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-cult_mass.webp?alt=media"
+  },
+  {
+    "name": "Кандиба Катерина Сергіївна",
+    "jobTitle": "Голова наукового сектору",
+    "qualification": "студентка 2 курсу, 21-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-science.webp?alt=media"
+  },
+  {
+    "name": "Кравченко Андрій Сергійович",
+    "jobTitle": "Голова спортивного сектору",
+    "qualification": "студент 3 курсу, 32-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-sport.webp?alt=media"
+  },
+  {
+    "name": "Сокоренко Світлана Сергіївна",
+    "jobTitle": "Голова інформаційного сектору",
+    "qualification": "студентка 3 курсу, 32-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-info.webp?alt=media"
+  },
+  {
+    "name": "Радченко Лада Андріївна",
+    "jobTitle": "Заступниця голови інформаційного сектору",
+    "qualification": "студентка 1 курсу, 12-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-info-vice.webp?alt=media"
+  },
+  {
+    "name": "Хряпіна Людмила Сергіївна",
+    "jobTitle": "Профорг",
+    "qualification": "студентка 2 курсу, 22-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-prof_org.webp?alt=media"
+  },
+  {
+    "name": "Подлісна Світлана Сергіївна",
+    "jobTitle": "Голова редколегії",
+    "qualification": "студентка 3 курсу, 32-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-editor.webp?alt=media"
+  },
+  {
+    "name": "Сахнюк Анжела Сергіївна",
+    "jobTitle": "Секретар активу студентського самоврядування",
+    "qualification": "студентка 3 курсу, 32-ДО групи",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-secretary.webp?alt=media"
+  }
+]

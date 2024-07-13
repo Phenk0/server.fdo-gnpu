@@ -1,0 +1,530 @@
+{
+  "preschool": [
+    {
+      "code": "1",
+      "component": "Формування  естетичної компетентності дітей дошкільного віку",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok1.pdf?alt=media"
+    },
+    {
+      "code": "2",
+      "component": "Формування навичок, орієнтованих на сталий розвиток у дошкільників",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok2.pdf?alt=media"
+    },
+    {
+      "code": "3",
+      "component": "Діагностика фізичних здібностей",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok3.pdf?alt=media"
+    },
+    {
+      "code": "4",
+      "component": "Практикум з фізичного виховання",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok4.pdf?alt=media"
+    },
+    {
+      "code": "5",
+      "component": "Логоритмика",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok5.pdf?alt=media"
+    },
+    {
+      "code": "6",
+      "component": "Логопедичний масаж і гімнастика",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok6.pdf?alt=media"
+    },
+    {
+      "code": "7",
+      "component": "Моделювання розвивального предметного середовища в закладах дошкільної освіти",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok7.pdf?alt=media"
+    },
+    {
+      "code": "8",
+      "component": "Сучасні технології в дошкільній освіті",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok8.pdf?alt=media"
+    },
+    {
+      "code": "9",
+      "component": "Комп'ютерні технології в роботі з дітьми",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok9.pdf?alt=media"
+    },
+    {
+      "code": "10",
+      "component": "Педагогіка гри в ЗДО",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok10.pdf?alt=media"
+    },
+    {
+      "code": "11",
+      "component": "Мнемотехніка в розвитку дітей дошкільного віку",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok11.pdf?alt=media"
+    },
+    {
+      "code": "12",
+      "component": "Основи дитячого туризму",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok12.pdf?alt=media"
+    },
+    {
+      "code": "13",
+      "component": "Психологія дитячої творчості",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok13.pdf?alt=media"
+    },
+    {
+      "code": "14",
+      "component": "Психологія особистості",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok14.pdf?alt=media"
+    },
+    {
+      "code": "15",
+      "component": "Основи артосвіти дошкільників",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok15.pdf?alt=media"
+    },
+    {
+      "code": "16",
+      "component": "Психолого-педагогічні основи роботи з обдарованими дітьми",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok16.pdf?alt=media"
+    },
+    {
+      "code": "17",
+      "component": "Етнопсихологія",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok17.pdf?alt=media"
+    },
+    {
+      "code": "18",
+      "component": "Плавання в ЗДО",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok18.pdf?alt=media"
+    },
+    {
+      "code": "19",
+      "component": "Основи масажу",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok19.pdf?alt=media"
+    },
+    {
+      "code": "20",
+      "component": "Цінності дошкільної освіти в країнах ЄС",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok20.pdf?alt=media"
+    },
+    {
+      "code": "21",
+      "component": "Гімнастика в ЗДО",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok21.pdf?alt=media"
+    },
+    {
+      "code": "22",
+      "component": "Лексикологія англійської мови",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok22.pdf?alt=media"
+    },
+    {
+      "code": "23",
+      "component": "Фонетика англійської мови",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok23.pdf?alt=media"
+    },
+    {
+      "code": "24",
+      "component": "Дошкільна освіта в країнах ЄС",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok24.pdf?alt=media"
+    },
+    {
+      "code": "25",
+      "component": "Логопедична робота з дітьми з порушенням звуковимови",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok25.pdf?alt=media"
+    },
+    {
+      "code": "26",
+      "component": "Логопедична робота з дітьми раннього віку",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok26.pdf?alt=media"
+    },
+    {
+      "code": "27",
+      "component": "Актуальні проблеми досліджень в дитячої психології",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok27.pdf?alt=media"
+    },
+    {
+      "code": "28",
+      "component": "Професійний імідж вихователя ЗДО",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok28.pdf?alt=media"
+    },
+    {
+      "code": "29",
+      "component": "Етика та психологія педагогічного спілкування вихователя ЗДО",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok29.pdf?alt=media"
+    },
+    {
+      "code": "30",
+      "component": "Організація освітнього процесу в інклюзивних групах ЗДО",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok30.pdf?alt=media"
+    },
+    {
+      "code": "31",
+      "component": "Організація здоров'язбережувального середовища в ЗДО",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok31.pdf?alt=media"
+    },
+    {
+      "code": "32",
+      "component": "Теорія і технологія валеологічної освіти дошкільників",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok32.pdf?alt=media"
+    },
+    {
+      "code": "33",
+      "component": "Основи сімейної педагогіки",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok33.pdf?alt=media"
+    },
+    {
+      "code": "34",
+      "component": "Взаємодія ЗДО з родинами",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok34.pdf?alt=media"
+    },
+    {
+      "code": "35",
+      "component": "Виховання дітей раннього віку",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok35.pdf?alt=media"
+    },
+    {
+      "code": "36",
+      "component": "Лікувальна фізична культура для дітей дошкільного віку",
+      "value": "5",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok36.pdf?alt=media"
+    },
+    {
+      "code": "37",
+      "component": "Виховання дітей з порушенням мовлення",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok37.pdf?alt=media"
+    },
+    {
+      "code": "38",
+      "component": "Психологія сім'ї",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fsyllabus_vok38.pdf?alt=media"
+    }
+  ],
+  "physical": [
+    {
+      "code": "1",
+      "component": "Підвищення спортивно-педагогічної майстерності з аеробіки",
+      "value": "21",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok1.pdf?alt=media"
+    },
+    {
+      "code": "2",
+      "component": "Підвищення спортивно-педагогічної майстерності з футболу",
+      "value": "21",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok2.pdf?alt=media"
+    },
+    {
+      "code": "3",
+      "component": "Підвищення спортивно-педагогічної майстерності з волейболу",
+      "value": "21",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok3.pdf?alt=media"
+    },
+    {
+      "code": "4",
+      "component": "Підвищення спортивно-педагогічної майстерності з баскетболу",
+      "value": "21",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok4.pdf?alt=media"
+    },
+    {
+      "code": "5",
+      "component": "Підвищення спортивно-педагогічної майстерності з легкої атлетики",
+      "value": "21",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok5.pdf?alt=media"
+    },
+    {
+      "code": "6",
+      "component": "Підвищення спортивно-педагогічної майстерності зі спортивних єдиноборств",
+      "value": "21",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok6.pdf?alt=media"
+    },
+    {
+      "code": "7",
+      "component": "Фітнес",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok7.pdf?alt=media"
+    },
+    {
+      "code": "8",
+      "component": "Чирлідинг",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok8.pdf?alt=media"
+    },
+    {
+      "code": "9",
+      "component": "Шейпінг",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok9.pdf?alt=media"
+    },
+    {
+      "code": "10",
+      "component": "Лижний спорт",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok10.pdf?alt=media"
+    },
+    {
+      "code": "11",
+      "component": "Зимові види спорту",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok11.pdf?alt=media"
+    },
+    {
+      "code": "12",
+      "component": "Ковзанярський спорт",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok12.pdf?alt=media"
+    },
+    {
+      "code": "13",
+      "component": "Настільний теніс",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok13.pdf?alt=media"
+    },
+    {
+      "code": "14",
+      "component": "Бадмінтон",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok14.pdf?alt=media"
+    },
+    {
+      "code": "15",
+      "component": "Фістбол",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok15.pdf?alt=media"
+    },
+    {
+      "code": "16",
+      "component": "Гандбол",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok16.pdf?alt=media"
+    },
+    {
+      "code": "17",
+      "component": "Корфбол",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok17.pdf?alt=media"
+    },
+    {
+      "code": "18",
+      "component": "Флорбол",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok18.pdf?alt=media"
+    },
+    {
+      "code": "19",
+      "component": "Аеробіка",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok19.pdf?alt=media"
+    },
+    {
+      "code": "20",
+      "component": "Аква-аеробіка",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok20.pdf?alt=media"
+    },
+    {
+      "code": "21",
+      "component": "Степ-аеробіка",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok21.pdf?alt=media"
+    },
+    {
+      "code": "22",
+      "component": "Силові види спорту",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok22.pdf?alt=media"
+    },
+    {
+      "code": "23",
+      "component": "Атлетична гімнастика",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok23.pdf?alt=media"
+    },
+    {
+      "code": "24",
+      "component": "Гирьовий спорт",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok24.pdf?alt=media"
+    },
+    {
+      "code": "25",
+      "component": "Олімпійський і професійний спорт",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok25.pdf?alt=media"
+    },
+    {
+      "code": "26",
+      "component": "Паралімпійський спорт",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok26.pdf?alt=media"
+    },
+    {
+      "code": "27",
+      "component": "Організаційні основи спорту",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok27.pdf?alt=media"
+    },
+    {
+      "code": "28",
+      "component": "Фізкультурно-спортивні споруди і тренажери",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok28.pdf?alt=media"
+    },
+    {
+      "code": "29",
+      "component": "Інноваційні технології  в практиці фізичного виховання",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok29.pdf?alt=media"
+    },
+    {
+      "code": "30",
+      "component": "Матеріально-технічне забезпечення процесу фізичного виховання в закладах освіти",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok30.pdf?alt=media"
+    },
+    {
+      "code": "31",
+      "component": "Фізична реабілітація з основами масажу",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok31.pdf?alt=media"
+    },
+    {
+      "code": "32",
+      "component": "Інклюзія у фізичній культурі",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok32.pdf?alt=media"
+    },
+    {
+      "code": "33",
+      "component": "Методика фізичного виховання в спеціальних медичних групах",
+      "value": "6",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok33.pdf?alt=media"
+    },
+    {
+      "code": "34",
+      "component": "Спортивні єдиноборства",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok34.pdf?alt=media"
+    },
+    {
+      "code": "35",
+      "component": "Рукопашний бій",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok35.pdf?alt=media"
+    },
+    {
+      "code": "36",
+      "component": "Хортинг",
+      "value": "3",
+      "fileAddress": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/discipline%2Fselective-ok%2Fphysical2023%2Fsyllabus_vok36.pdf?alt=media"
+    }
+  ],
+  "physicalMaster": [
+    {
+      "code": "1",
+      "component": "Адаптивне фізичне виховання",
+      "value": "4",
+      "fileAddress": "https://docs.google.com/document/d/1Kvv2tfq9MLAFm9jsDGVr33nsOGC_fyiI/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "2",
+      "component": "Сучасні технології оздоровчої рухової активності",
+      "value": "4",
+      "fileAddress": "https://docs.google.com/document/d/1xTFimhQfBGoS0ew4P6XioUaNMJ2Taswj/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "3",
+      "component": "Нетрадиційні фізкультурно-оздоровчі види рухової активності",
+      "value": "4",
+      "fileAddress": "https://docs.google.com/document/d/1m6bdskXiW2HwxaQZUE5H8YvOb45ZncTg/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "4",
+      "component": "Енергоінформаційні основи здоров`я",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/1gRJoci6X8bWmo2adyhopsBU6CsjzhN5v/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "5",
+      "component": "Духовні аспекти здоров`я",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/1JYz4eLubkyPW5OoGT0Wtii56387N0aAA/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "6",
+      "component": "Психодіагностика і корекція станів засобами фізичної культури",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/1vjK5gmqYxutIuBvhtZ66w0ok8hh19XKB/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "7",
+      "component": "Медико-біологічний контроль у фізичній культурі і спорті",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/17uJWWVznBT_EhzQnlKskSo-yeKhar1t8/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "8",
+      "component": "Спортивна травмотологія",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/1PBCMltsD_8RYmjeXimUnctWd_6hvcKW2/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "9",
+      "component": "Організація спортивно-масової роботи",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/1oOpmBU4g3GsRvCMVvg3SNP3PtqQ9AZzm/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "10",
+      "component": "Фізична рекреація різних груп населення",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/1w7ueiWtajV0AwjWAnEPdF_pUWzTNCFz2/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "11",
+      "component": "Організація рекреаційних послуг",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/11yJObdtoxd3cxhRWn3NDfRGpKpDD8pvE/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "12",
+      "component": "Рекреаційно-туристичні ресурси України",
+      "value": "3",
+      "fileAddress": "https://docs.google.com/document/d/18L9R_c54dMyVsm88LZGoUpzZzAV_-gOj/edit?usp=sharing&ouid=104287584115529291632&rtpof=true&sd=true"
+    },
+    {
+      "code": "13",
+      "component": "Дисципліна за вибором (вибір із загальноуніверситетського переліку, у тому числі з іншої освітньої програми)",
+      "value": "",
+      "fileAddress": ""
+    }
+  ]
+}

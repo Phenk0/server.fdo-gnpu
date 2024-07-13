@@ -1,0 +1,978 @@
+{
+  "preschool": [
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fbadulina-o-v.webp?alt=media",
+      "name": "Бадуліна Оксана Василівна",
+      "yearOfEducation": "1998-2001",
+      "department": "дошкільна освіта (заочна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0995471714",
+        "email": "a-ksuta@ukr.net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fbespala-m-v.webp?alt=media",
+      "name": "Беспала Марія Василівна (Кузьменко)",
+      "yearOfEducation": "2010-2015",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ЗДО «Дзвіночок» м. Шостка",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0683425674",
+        "email": "konfeti34@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fbiriuk-a-v.webp?alt=media",
+      "name": "Бірюк Анна Володимирівна",
+      "yearOfEducation": "2021-2022",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Шосткинський заклад дошкільної освіти №8 \"Оленка\" Шосткинської міської ради Сумської області м. Шостка",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0661986937",
+        "email": "kozhedubann@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fbobilkina-v-v.webp?alt=media",
+      "name": "Бобилкіна Вікторія Валеріївна (Комелягіна)",
+      "yearOfEducation": "2004-2009",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ЦРД: ДНЗ «Світлячок» м.Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0665173757",
+        "email": "5173757@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fbozshko-s-v.webp?alt=media",
+      "name": "Божко Світлана Василівна",
+      "yearOfEducation": "2003-2008",
+      "department": "дошкільна освіта (заочна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів",
+      "jobTitle": "завідувач",
+      "contacts": {
+        "tel": "0667642149",
+        "email": "svitlanabogko@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fbyrik-i-m.webp?alt=media",
+      "name": "Бурик Ірина Миколаївна",
+      "yearOfEducation": "1992 – 1997",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0666274886",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fvavilova-n-a.webp?alt=media",
+      "name": "Вавілова Наталія Анатоліївна",
+      "yearOfEducation": "1993 – 1998",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0994032622",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fvelichko-o-m.webp?alt=media",
+      "name": "Величко Оксана Миколаївна",
+      "yearOfEducation": "2013-2016",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівської міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0993417755",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fvolinko-m-g.webp?alt=media",
+      "name": "Волинко Марина Генадіївна ( Рябенко)",
+      "yearOfEducation": "2007 - 2012",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Місце роботи: ДНЗ «Журавка» м. Глухів ",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0664339145",
+        "email": "marinavolynkomarina@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fgavrish-y-s.webp?alt=media",
+      "name": "Гавриш Юлія Сергіївна (Федько)",
+      "yearOfEducation": "2008-2011",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0967761046",
+        "email": "gavrisulia01@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fgaponko-y-v.webp?alt=media",
+      "name": "Гапонько Юлія Вікторівна",
+      "yearOfEducation": "2019-2020",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівської міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0664160340",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fglebova-o-s.webp?alt=media",
+      "name": "Глєбова Ольга Сергіївна",
+      "yearOfEducation": "2014-2016",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів ",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0661032616",
+        "email": "glebovaolga566@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fgritsenko-l-y.webp?alt=media",
+      "name": "Гриценко Людмила Яківна (Левченко)",
+      "yearOfEducation": "1994-1999",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів",
+      "jobTitle": "вихователь - методист",
+      "contacts": {
+        "tel": "0990614354",
+        "email": "lyudmilagritsenko77@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fgubatenko-a-v.webp?alt=media",
+      "name": "Губатенко Анна Віталіївна",
+      "yearOfEducation": "2020-2022",
+      "department": "дошкільна освіта (заочна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів",
+      "jobTitle": "музичний керівник",
+      "contacts": {
+        "tel": "0952229415",
+        "email": "anechkagubatenko09@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fdavidenko-t-i.webp?alt=media",
+      "name": "Давиденко Тетяна Іванівна",
+      "yearOfEducation": "2007-2009",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "ДНЗ ЦРД «Світлячок» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0993983050",
+        "email": "tanadavydenko7@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fdadakova-o-m.webp?alt=media",
+      "name": "Дадакова Ольга Миколаївна",
+      "yearOfEducation": "1998-2003",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ДНЗ ЦРД «Світлячок» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0969708643",
+        "email": "dadakova-olga@ukr. net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fdemchenko-n-a.webp?alt=media",
+      "name": "Демченко Наталя Альбертівна",
+      "yearOfEducation": "2016",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівської міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0666365343",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fdemchenko-l-v.webp?alt=media",
+      "name": "Демченко Леся Вячеславівна (Козлова)",
+      "yearOfEducation": "2000-2005",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ЗДО №6 м. Кролевець",
+      "jobTitle": "вихователь I категорії",
+      "contacts": {
+        "tel": "0682484890",
+        "email": "demchencko436@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fdmitrenko-s-o.webp?alt=media",
+      "name": "Дмитренко Світлана Олександрівна (Ганжара)",
+      "yearOfEducation": "2019-2021",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "ДНЗ (ясла-садок) №12 «Райдужний» м. Конотоп",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0680921502",
+        "email": "dahasvetik201402@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fdmitrenko-a-p.webp?alt=media",
+      "name": "Дмитренко Аліна Павлівна (Острівна)",
+      "yearOfEducation": "2008-2013",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "доктор філософії, старший викладач кафедри теорії і методики дошкільної освіти",
+      "contacts": {
+        "tel": "0999587792",
+        "email": "alinadmutrenko1990@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fdiachenko-i-o.webp?alt=media",
+      "name": "Дяченко Ірина Олександрівна",
+      "yearOfEducation": "2013-2022",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "«ЗДОNo21» Полтавська область м. Кременчук",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0979134871",
+        "email": "Irinadacenko0@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fyeriomina-l-o.webp?alt=media",
+      "name": "Єрьоміна Людмила Олександрівна",
+      "yearOfEducation": "2008 – 2013",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вчитель англійської мови",
+      "contacts": {
+        "tel": "0663401024",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fzsharik-m-g.webp?alt=media",
+      "name": "Жарик Марина Геннадіївна",
+      "yearOfEducation": "2011-2015",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь, інструктор з фізичного виховання",
+      "contacts": {
+        "tel": "0688936869",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fzaika-s-a.webp?alt=media",
+      "name": "Заїка Світлана Анатоліївна (Осауленко)",
+      "yearOfEducation": "2010-2015",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ДНЗ:ЦРД «Світлячок» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0683425601",
+        "email": "zaikasvetp@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fzakys-g-v.webp?alt=media",
+      "name": "Закус Галина Василівна",
+      "yearOfEducation": "2015-2017",
+      "department": "дошкільна освіта",
+      "currentJob": "Центр професійного розвитку педагогічних працівників Червоноградської міської ради Львівської області",
+      "jobTitle": "консультант",
+      "contacts": {
+        "tel": "0974066401; 0634397760; 0958751625",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fzaharova-o-m.webp?alt=media",
+      "name": "Захарова Олена Миколаївна",
+      "yearOfEducation": "2008-2011",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "ДНЗ:ЦРД «Світлячок» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0669165033",
+        "email": "lenazaharova9165033@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fzlagodniuk-i-d.webp?alt=media",
+      "name": "Злагоднюк Інна Дмитрівна (Куліш)",
+      "yearOfEducation": "1987-1992",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський НПУ ім.О.Довженка",
+      "jobTitle": "декан факультету дошкільної освіти",
+      "contacts": {
+        "tel": "0953526896",
+        "email": "kulisnna69@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fkabanova-n-m.webp?alt=media",
+      "name": "Карбанова Надія Михайлівна",
+      "yearOfEducation": "1999-2001",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0994228628",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fkashtalyan-yamnik-o-s.webp?alt=media",
+      "name": "Каштальян-Ямнік Ольга Сергіївна",
+      "yearOfEducation": "2009-2011",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь-методист",
+      "contacts": {
+        "tel": "0502533840",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fkirichenko-i-o.webp?alt=media",
+      "name": "Кириченко Інна Олексіївна",
+      "yearOfEducation": "1988 – 1993",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0667781989",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fkorniienko-y-o.webp?alt=media",
+      "name": "Корнієнко Юлія Олександрівна",
+      "yearOfEducation": "2015 – 2016",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0957727393",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fkoshel-a-p.jpeg?alt=media&token=cdc36012-502b-415a-b9f7-457b69aca106",
+      "name": "Кошель Анна Павлівна",
+      "yearOfEducation": "2002-2007",
+      "department": "дошкільна освіта",
+      "currentJob": "Національний університет «Чернігівський колегіум» імені Т.Г. Шевченка, м. Чернігів",
+      "jobTitle": "доцент кафедри дошкільної та початкової освіти, кандидат педагогічних наук",
+      "contacts": {
+        "tel": "0990782974",
+        "email": "anna6996@ukr.net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fkoshel-v-m.jpeg?alt=media&token=9eca5a19-4d15-48ef-954f-2f3e509436f3",
+      "name": "Кошель Віталій Миколайович",
+      "yearOfEducation": "2002-2008",
+      "department": "дошкільна освіта",
+      "currentJob": "Національний університет «Чернігівський колегіум» імені Т. Г. Шевченка, м. Чернігів",
+      "jobTitle": "доцент кафедри дошкільної та початкової освіти, кандидат педагогічних наук",
+      "contacts": {
+        "tel": "0666078677",
+        "email": "0666078677@ukr.net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fkrasnoschok-o-v.webp?alt=media",
+      "name": "Краснощок Оксана Вікторівна",
+      "yearOfEducation": "2001 – 2006",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0661463251",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Flavrinenko-y-v.webp?alt=media",
+      "name": "Лавриненко Юлія Володимирівна",
+      "yearOfEducation": "2012 – 2013",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь-методист",
+      "contacts": {
+        "tel": "0668584716",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fleiko-o-o.webp?alt=media",
+      "name": "Лейко Оксана Олексіївна",
+      "yearOfEducation": "2012-2018",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Комунальний заклад “Шосткинський дошкільний навчальний заклад (ясла-садок) №1 “Дзвіночок”",
+      "jobTitle": "вихователька дітей дошкільного віку",
+      "contacts": {
+        "tel": "0957153097",
+        "email": "mis.ksunia@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fliskovska-n-o.webp?alt=media",
+      "name": "Лісковська Наталя Олександрівна",
+      "yearOfEducation": "2011-2013",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0993645964",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Flyzan-i-m.webp?alt=media",
+      "name": "Лузан Ірина Миколаївна",
+      "yearOfEducation": "1087-1991",
+      "department": "педагогіки і психології (дошкільної, очна форма навчання)",
+      "currentJob": "ЗДО №6 м. Кролевець",
+      "jobTitle": "вихователь I категорії",
+      "contacts": {
+        "tel": "0680921872",
+        "email": "irinochkaluzan@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fmitrova-v-v.webp?alt=media",
+      "name": "Мітрова Віталіна Вячеславівна (Любива)",
+      "yearOfEducation": "1997-2002",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет ім. Олександра Довженка м. Глухів",
+      "jobTitle": "старший викладач кафедри теорії та методики дошкільної освіти, факультет дошкільної освіти",
+      "contacts": {
+        "tel": "0964189206",
+        "email": "vitalion482@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fmareieva-t-v.webp?alt=media",
+      "name": "Марєєва Тетяна Вікторівна (Лайко)",
+      "yearOfEducation": "2003-2009",
+      "department": "дошкільного виховання, педагогічний факультет (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "доцент",
+      "contacts": {
+        "tel": "0999092324",
+        "email": "mareeva.tan@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fmaslionko-s-m.webp?alt=media",
+      "name": "Масльонко Світлана Миколаївна (Макеєва)",
+      "yearOfEducation": "2000-2002",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів ",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0668585140",
+        "email": "smaslyonko@ukr.net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fmezko-s-v.webp?alt=media",
+      "name": "Мезько Світлана Валеріївна",
+      "yearOfEducation": "2011-2016",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Дошкільний навчальний заклад № 9 \"Десняночка\", місто Шостка",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0975019542",
+        "email": "svetamesa69@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fmeshkova-n-m.webp?alt=media",
+      "name": "Мешкова Надія Миколаївна",
+      "yearOfEducation": "1991-1996",
+      "department": "дошкільна освіта (заочна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів",
+      "jobTitle": "практичний психолог",
+      "contacts": {
+        "tel": "0993638007",
+        "email": "nadiameskova@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fonychko-t-o.webp?alt=media",
+      "name": "Онучко Тетяна Олександрівна",
+      "yearOfEducation": "2014 - 2019",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів ",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0969550432",
+        "email": "tat.13do@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fotrashok-v-m.webp?alt=media",
+      "name": "Отрашок Віта Миколаївна (Лустенко)",
+      "yearOfEducation": "2008 - 2013",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів ",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0994575924",
+        "email": "otrashokvita@ukr.net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fpavlovska-g-o.webp?alt=media",
+      "name": "Павловська Ганна Олексіївна",
+      "yearOfEducation": "2015-2019",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "",
+      "jobTitle": "",
+      "contacts": {
+        "tel": "0680896746",
+        "email": "anna0680896746@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fpisitska-i-m.webp?alt=media",
+      "name": "Пісоцька Ірина Михайлівна",
+      "yearOfEducation": "1998-2003",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ДНЗ: ЦРД  \"Світлячок\"\nм.Глухів",
+      "jobTitle": "керівник гуртка, вихователь",
+      "contacts": {
+        "tel": "0500217539",
+        "email": "poliak981ira@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fprokopenko-v-v.webp?alt=media",
+      "name": "Прокопенко Вікторія Вікторівна",
+      "yearOfEducation": "2016",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0996264302",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Frachitska-v-b.webp?alt=media",
+      "name": "Рачицька Віта Борисівна",
+      "yearOfEducation": "1987 – 1992",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0664178880",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fsavchenko-y-y.webp?alt=media",
+      "name": "Савченко Юрій Юрійович",
+      "yearOfEducation": "1992-1996",
+      "department": "дошкільне виховання (денна форма навчання)",
+      "currentJob": "Київський університет імені Бориса Грінченка",
+      "jobTitle": "доцент кафедри освітології та психолого-педагогічних наук; заступник декана з науково-педагогічної та соціально-гуманітарної роботи Факультету педагогічної освіти Київського університету імені Бориса Грінченка",
+      "contacts": {
+        "tel": "0987433041; 0667731647",
+        "email": "y.savchenko@kubg.edu.ua"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fsamoschenko-v-o.webp?alt=media",
+      "name": "Самощенко Віталія Олегівна (Гаркавенко)",
+      "yearOfEducation": "1998-2001",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "КУ ЦРПП Глухівської міської ради та Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівської міської ради Сумська область, м. Глухів",
+      "jobTitle": "консультант, вихователь",
+      "contacts": {
+        "tel": "0661837621",
+        "email": "samoshenkovita@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fsierova-y-v.webp?alt=media",
+      "name": "Сєрова Юлія Володимирівна (Білоус)",
+      "yearOfEducation": "2004-2009",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0956646282",
+        "email": "buv2019@ukr.net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fsidorenko-n-v.webp?alt=media",
+      "name": "Сидоренко Надія Вікторівна  (Приходько)",
+      "yearOfEducation": "2016- 2021",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ДНЗ:ЦРД \"Світлячок\" м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0984909178",
+        "email": "nadiaprihodko1998@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fscripka-i-v.webp?alt=media",
+      "name": "Скрипка Інна Віталіївна",
+      "yearOfEducation": "2011-2016",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0506824758",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fscripka-n-p.webp?alt=media",
+      "name": "Скрипка Наталія Павлівна ",
+      "yearOfEducation": "2015 – 2016",
+      "department": "дошкільна освіта (заочна форма навчання)",
+      "currentJob": "ДНЗ «Журавка» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0993025570",
+        "email": "nataliskripka@ukr.net"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fsnizshko-y-i.webp?alt=media",
+      "name": "Сніжко (Чуженко) Яна Іванівна ",
+      "yearOfEducation": "2005-2010",
+      "department": "дошкільне виховання(очна форма навчання)",
+      "currentJob": "ДНЗ :ЦРД «Світлячок» м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0995554811",
+        "email": "chuzhenkoyana1988@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fstefanova-i-v.webp?alt=media",
+      "name": "Стефанова Ірина Володимирівна(Чорноус)",
+      "yearOfEducation": "2003-2008",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ЦРД: ДНЗ «Світлячок» м.Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0951501961",
+        "email": "si140986@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Ftrotsenko-s-p.webp?alt=media",
+      "name": "Троценко Світлана Петрівна (Головня)",
+      "yearOfEducation": "1991-1995",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "ЦРД: ДНЗ \"Світлячок\" м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0500784789",
+        "email": "s.trotsenko1@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Ftroschiy-i-a.webp?alt=media",
+      "name": "Трощій Ірина Анатоліївна (Воробйова)",
+      "yearOfEducation": "1987-1991",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "КЗ «ДНЗ№280» Індустріального району м. Харків",
+      "jobTitle": "вихователь – методист",
+      "contacts": {
+        "tel": "0993025570",
+        "email": "tia041167@ukr.net; v.va.irina.tr93@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Ffesenko-n-i.webp?alt=media",
+      "name": "Фесенко Наталія Іванівна",
+      "yearOfEducation": "1992-1996",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "завідувач",
+      "contacts": {
+        "tel": "0506728858",
+        "email": "nfesenko627@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/about%2Fktmfv%2Fhlys-natalia.webp?alt=media",
+      "name": "Хлус Наталія Олександрівна",
+      "yearOfEducation": "1996−2001",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "завідувач кафедри теорії і методики фізичного виховання, доцент,  кандидат наук з фізичного виховання  і спорту",
+      "contacts": {
+        "tel": "0997742882",
+        "email": "chlusno@gnpu.edu.ua"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/about%2Fktmfv%2Ftsis-dmitro.webp?alt=media",
+      "name": "Цись Дмитро Іванович",
+      "yearOfEducation": "1997-2002",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "доцент кафедри теорії і методики фізичного виховання, кандидат педагогічних наук",
+      "contacts": {
+        "tel": "0661890058",
+        "email": "tsysdi@gnpu.edu.ua"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Ftsys-n-o.webp?alt=media&token=46e57f54-1a4c-47c2-be1a-51036696cb95",
+      "name": "Цись Наталія Олександрівна (Кедя)",
+      "yearOfEducation": "1997-2002",
+      "department": "дошкільна освіта (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "асистент кафедри теорії і методики дошкільної освіти",
+      "contacts": {
+        "tel": "0663229691",
+        "email": "tsysno@gnpu.edu.ua"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Ftsikava-v-v.webp?alt=media",
+      "name": "Цікава Віталіна Вікторівна",
+      "yearOfEducation": "2016",
+      "department": "дошкільне виховання (заочна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0508268680",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fshamanova-n-m.webp?alt=media",
+      "name": "Шаманова Наталія Миколаївна (Карпенко)",
+      "yearOfEducation": "2008-2013",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "ЦРД: ДНЗ «Світлячок» м.Глухів Сумської області",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0953963214",
+        "email": "shamanova.nataly@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fshevchenko-i-a.webp?alt=media",
+      "name": "Шевченко Інна Андріївна",
+      "yearOfEducation": "2004 – 2009",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Ромашка», м. Глухів",
+      "jobTitle": "вихователь",
+      "contacts": {
+        "tel": "0953544730",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association%2Fshylga-o-a.webp?alt=media",
+      "name": "Шульга Оксана Анатоліївна",
+      "yearOfEducation": "2001-2004",
+      "department": "дошкільне виховання (очна форма навчання)",
+      "currentJob": "Глухівський дошкільний навчальний заклад (ясла-садок) «Фіалка» Глухівcької міської ради Сумська область, м. Глухів",
+      "jobTitle": "практичний психолог",
+      "contacts": {
+        "tel": "0663133921",
+        "email": "ksuhashulha@i.ua"
+      }
+    }
+  ],
+  "physical": [
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fkovtyn-vitalii.jpg?alt=media&token=7e031e59-a575-462d-96ee-6ac67511f206",
+      "name": "Ковтун Віталій Олександрович",
+      "yearOfEducation": "2004-2009",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Відокремлений структурний підрозділ «Шосткинський фахового коледжу імені Івана Кожедуба Сумського державного університетут»",
+      "jobTitle": "викладач (вища категорія)",
+      "contacts": {
+        "tel": "0661173698",
+        "email": "kovtunvo1986@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fhrytsay-mykola.jpg?alt=media&token=1bfe431d-cfa2-4787-afd9-91e0add30b10",
+      "name": "Грицай Микола Олексійович",
+      "yearOfEducation": "2004-2009",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Коропська ЗОШ І-ІІІ ступенів імені Т.Г. Шевченка",
+      "jobTitle": "вчитель (вища категорія)",
+      "contacts": {
+        "tel": "0971810136",
+        "email": "grucayk@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fmedvid-andrii.jpg?alt=media&token=384e1783-d5cc-4cc6-8bd6-08496fd05ce7",
+      "name": "Медвідь Андрій Валентинович",
+      "yearOfEducation": "2014-2019",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Карильська ЗОШ І-ІІІ ступенів",
+      "jobTitle": "вчитель (вища категорія)",
+      "contacts": {
+        "tel": "0971810136",
+        "email": "vedmidand@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fpride%2FNechiporykE.jpg?alt=media&token=f04f3b36-848b-4233-85d9-a709f954a3c9",
+      "name": "Нечипорук Ельвіра Віталіївна",
+      "yearOfEducation": "2015-2020",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "ДЮСШ «Олімп» Кролевецької міської ради  ",
+      "jobTitle": "тренер викладач",
+      "contacts": {
+        "tel": "0971848009",
+        "email": "nechuporyk@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fpomazan-oleksandr.jpg?alt=media&token=9621299c-f095-435e-8300-ecbb04af6700",
+      "name": "Помазан Олександр Геннадійович",
+      "yearOfEducation": "2007-2012",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Опорний заклад «Кролевецький ліцей №3» Кролевецької міської ради",
+      "jobTitle": "вчитель",
+      "contacts": {
+        "tel": "0976770138",
+        "email": "apomazan74@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fchyprina-maksim.webp?alt=media&token=8d68c7c3-f156-4166-a779-cc1bede8f34f",
+      "name": "Чуприна Максим Миколайович",
+      "yearOfEducation": "2007-2012",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Коропська ДЮСШ «Колос»",
+      "jobTitle": "Тренер викладач",
+      "contacts": {
+        "tel": "0686520299",
+        "email": "makschyp@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fjabko-yulia.jpg?alt=media&token=08aa9538-4bd0-49ca-bd37-117f6f57c5d5",
+      "name": "Жабко (Россол) Юлія Вікторівна",
+      "yearOfEducation": "2007-2012",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "ДЮСШ «Олімп» Кролевецької міської ради",
+      "jobTitle": "Тренер викладач",
+      "contacts": {
+        "tel": "0962025473",
+        "email": "yulyazhabko@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fjabko-artem.jpg?alt=media&token=3d70e762-7b2d-4cd9-bfd5-4b5734ae4402",
+      "name": "Жабко Артем Анатолійович",
+      "yearOfEducation": "2009-2014",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "ДЮСШ «Олімп» Кролевецької міської ради",
+      "jobTitle": "Тренер викладач",
+      "contacts": {
+        "tel": "0984103668",
+        "email": "zhabkoartem@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fkostiuchenko-artem.webp?alt=media&token=57ac9b74-144c-4e01-8cc1-b69cce034e82",
+      "name": "Костюченко Артем Анатолійович",
+      "yearOfEducation": "2011-2016",
+      "department": "педагогіки та психології (заочна форма навчання)",
+      "currentJob": "Глухівська ЗОШ І-ІІІ ступенів",
+      "jobTitle": "вчитель",
+      "contacts": {
+        "tel": "0994156342",
+        "email": "artemkostuchenko12@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fpride%2FKhalmatovD.webp?alt=media&token=110a10c2-0fa2-4071-b85a-4006f7ffccde",
+      "name": "Халматов Дільшот Шухратович",
+      "yearOfEducation": "2016-2021",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Спортивний клуб «Дзюдо майстер»",
+      "jobTitle": "Тренер викладач",
+      "contacts": {
+        "tel": "0994156342",
+        "email": "halmatovd@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fpride%2FRossolO.webp?alt=media&token=6c300b95-393f-47e5-ab09-d3e9d35044c7",
+      "name": "Россол Олег Вікторович",
+      "yearOfEducation": "2005-2008",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Глухівська ЗОШ І-ІІІ ступенів",
+      "jobTitle": "Тренер викладач",
+      "contacts": {
+        "tel": "0503683815",
+        "email": ""
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/about%2Fktmfv%2Fredko-sergiy.webp?alt=media&token=5122c7c0-7034-4e44-bf75-ef3ff98215a2",
+      "name": "Редько Сергій Юрійович",
+      "yearOfEducation": "2007-2012",
+      "department": "педагогіки та психології (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "Старший викладач кафедри теорії і методики фізичного виховання",
+      "contacts": {
+        "tel": "0977493797",
+        "email": "redko89s@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/about%2Fktmfv%2Fbutenko-halyna.webp?alt=media&token=a1ab903a-6be9-4dd4-a644-a1b55627fa4d",
+      "name": "Бутенко Галина Олександрівна",
+      "yearOfEducation": "2007-2012",
+      "department": "педагогіки та психології (заочна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "Кандидат наук з фізичного виховання і спорту, доцент",
+      "contacts": {
+        "tel": "0967149403",
+        "email": "halsanna22@gmail.com"
+      }
+    },
+    {
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/aside%2Falumni-association-physical%2Fpetrikey-olga.jpg?alt=media&token=ed38101e-eeb3-49f1-b225-c44d982b1076",
+      "name": "Петрикей Ольга Олексіївна",
+      "yearOfEducation": "2021-2022",
+      "department": "дошкільної освіти (очна форма навчання)",
+      "currentJob": "Глухівський національний педагогічний університет імені Олександра Довженка",
+      "jobTitle": "Старший викладач кафедри теорії і методики фізичного виховання",
+      "contacts": {
+        "tel": "0960856180",
+        "email": "petrikeiolga@gmail.com"
+      }
+    }
+  ]
+}

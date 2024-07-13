@@ -1,0 +1,108 @@
+{
+  "preschool": [
+    {
+      "name": "Конопля Арсен Ігорович",
+      "jobTitle": "Студентський декан",
+      "qualification": "студент 4 курсу, 42-ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Fkonoplia-arsen.webp?alt=media&token=6aaa0f8e-a142-4d8b-8305-76de6db4cfc3"
+    },
+    {
+      "name": "Мітіна Марія Юріївна",
+      "jobTitle": "Культмасовий сектор",
+      "qualification": "студентка 3 курсу, 32-ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Fmitina-mariia.webp?alt=media&token=f6afcb33-3fac-4869-a3bd-e6d37f593b0e"
+    },
+    {
+      "name": "Кандиба Катерина Сергіївна",
+      "jobTitle": "Науковий сектор",
+      "qualification": "студентка 1 курсу, 61–1 МДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Fkandyba-kateryna.webp?alt=media&token=12ea15b5-f90c-4784-ad13-05877f057786"
+    },
+    {
+      "name": "Фоменко Катерина Олексіївна",
+      "jobTitle": "Інформаційний сектор",
+      "qualification": "студентка 3 курсу, 32-ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Ffomenko-kateryna.webp?alt=media&token=e0f35250-444c-4bac-af6a-6ceb272e8fe7"
+    },
+    {
+      "name": "Федотенко Альбіна Сергіївна",
+      "jobTitle": "Інформаційний сектор",
+      "qualification": "студентка 1 курсу, 11–ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Ffedotenko-olena.webp?alt=media&token=0a195012-0e04-49ae-a263-6713fa7395f6"
+    },
+    {
+      "name": "Бабушкіна Олена Віталіївна",
+      "jobTitle": "Інформаційний сектор",
+      "qualification": "студентка 1 курсу, 12–ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Fbabushkina-olena.webp?alt=media&token=63f96f18-0813-481f-95d2-8fdf35895fea"
+    },
+    {
+      "name": "Кравченко Андрій Сергійович",
+      "jobTitle": "Спортивний сектор",
+      "qualification": "студент 4 курсу, 42-ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Fkravchenko-andrii.webp?alt=media&token=1fe66865-d146-4dcd-adb6-3b30592f5fb5"
+    },
+    {
+      "name": "Хряпіна Людмила Сергіївна",
+      "jobTitle": "Профспілковий лідер",
+      "qualification": "студентка 3 курсу, 32-ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Fkhriapina-liudmyla.webp?alt=media&token=7e6f7b21-44c1-41fa-90b2-fdefcf759a57"
+    },
+    {
+      "name": "Коваленко Ольга Іванівна",
+      "jobTitle": "Секретар",
+      "qualification": "студентка 3 курсу, 32-ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-preschool%2Fkovalenko-olga.jpeg?alt=media&token=e18ff53a-816a-4b2d-bd3e-dc52068c1c86"
+    },
+    {
+      "name": "Подлісна Світлана Сергіївна",
+      "jobTitle": "Редколегія",
+      "qualification": "студентка 4 курсу, 42-ДО групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2Fstudent-editor.webp?alt=media"
+    }
+  ],
+  "physical": [
+    {
+      "name": "Кочура Владислава Романівна",
+      "jobTitle": "Студентський декан",
+      "qualification": "студентка 1 курсу 6М-ФК групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Fkochura-vladyslava.webp?alt=media&token=a26880de-6650-4506-afb9-a47f92bcaa1c"
+    },
+    {
+      "name": "Васюк Дар’я Андріївна",
+      "jobTitle": "Заступник студентського декана",
+      "qualification": "студентка 2 курсу 25-ФК групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Fvasiuk-daria.webp?alt=media&token=a8b7a019-f893-42fc-9ee1-67a74bfc78ed"
+    },
+    {
+      "name": "Неминуща Діана Олегівна",
+      "jobTitle": "Голова культмасового сектору",
+      "qualification": "студентка 2 курсу 25-ФК групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Fneminuscha-diana.webp?alt=media&token=7587da76-6f8a-4837-9aca-1f4dad264722"
+    },
+    {
+      "name": "Пирог Софія Олександрівна",
+      "jobTitle": "Голова наукового сектору",
+      "qualification": "студентка 2 курсу 25-ФК групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Fpirog-sophia.webp?alt=media&token=853db511-3369-41d3-bb82-c52ecfcc826d"
+    },
+    {
+      "name": "Тетюра Тетяна Володимирівна",
+      "jobTitle": "Голова інформаційного сектору",
+      "qualification": "студентка 2 курсу 25-ФК групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Ftetiura-tetiana.webp?alt=media&token=7cffcdfd-56b5-44ed-b57f-7ef29fedd201"
+    },
+    {
+      "name": "Гарькавенко Альона Олександрівна",
+      "jobTitle": "Секретар активу студентського самоврядування",
+      "qualification": "студентка 2 курсу 25-ФК групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Fgarkavenko-aliona.jpeg?alt=media&token=f99f6eb5-bad3-4a9e-8e56-86476cd8bf37"
+    },
+    {
+      "name": "Огієнко Юрій Олександрович",
+      "jobTitle": "Профорг",
+      "qualification": "студент 4 курсу 43-ФК групи",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Fogienko-yurii.jpeg?alt=media&token=bee28ab1-448b-4b61-bc1b-704b2cf3a075"
+    }
+  ]
+}

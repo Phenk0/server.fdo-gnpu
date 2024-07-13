@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Куліш Інна Дмитрівна",
+    "jobTitle": "Декан факультету",
+    "qualification": "кандидат педагогічних наук, доцент ",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/about%2Fdeanery%2Fdean.webp?alt=media",
+    "contacts": {
+      "tel": "(095)3526896",
+      "email": "kulish@gnpu.edu.ua"
+    }
+  },
+  {
+    "name": "Лисиця Віталіна Вячеславівна",
+    "jobTitle": "Заступник декана з міжнародної і виховної роботи",
+    "qualification": "кандидат педагогічних наук, старший викладач",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/about%2Fdeanery%2Fliybiva.webp?alt=media",
+    "contacts": {
+      "tel": "(096)4189206",
+      "email": "vitalion482@gmail.com"
+    }
+  },
+  {
+    "name": "Гулакова Анна Валеріївна",
+    "jobTitle": "Фахівець деканату",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/about%2Fdeanery%2Fgulakova.webp?alt=media",
+    "contacts": {
+      "tel": "(066)8100440",
+      "email": "dekanatfdo2020@gmail.com"
+    }
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "preschool": [
+    {
+      "name": "Федотенко Альбіна Романівна",
+      "group": "11–ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Ffedotenko-albina.webp?alt=media&token=bf93e962-80df-47e6-bcdd-e532dac50add"
+    },
+    {
+      "name": "Андрущенко Діана Сергіївна",
+      "group": "12-ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Fandruschenko-diana.webp?alt=media&token=a94b6f9e-9be9-4927-a0de-514e016a9a5f"
+    },
+    {
+      "name": "Лепешко Владислав Ігорович",
+      "group": "13–ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Flepeshko-vladislav.webp?alt=media&token=bfa3fa68-5a78-4d0e-9156-ff0cc203e102"
+    },
+    {
+      "name": "Давиденко Вікторія Олександрівна",
+      "group": "22–ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Fdavidenko-viktoria.webp?alt=media&token=9832f177-71b4-4377-8309-cbe286077d44"
+    },
+    {
+      "name": "Ликова Юлія Олександрівна",
+      "group": "21–ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Flykova-yuliia.webp?alt=media&token=17fcda72-8600-4e99-9042-8c87f31aad3c"
+    },
+    {
+      "name": "Пилипенко Тетяна Дмитрівна",
+      "group": "23–ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Fpylypenko-tetiana.webp?alt=media&token=d56544df-018d-4bbd-976c-15cad7847327"
+    },
+    {
+      "name": "Неловкіна Ольга Геннадіївна",
+      "group": "32–ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Fnelovkina-olga.webp?alt=media&token=129c291f-6b16-46d5-9999-f21360bd0f54"
+    },
+    {
+      "name": "Трясій Віталіна Андріївна",
+      "group": "42–ДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Ftriasii-vitalina.webp?alt=media&token=592b8914-70dd-437a-af04-0463c414c332"
+    },
+    {
+      "name": "Левашова Анна Сергіївна",
+      "group": " 61 -МДП",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fpreschool-2023%2Flevashova-anna.webp?alt=media&token=3029c200-1ce7-45cb-9c6d-b88be795da76"
+    },
+    {
+      "name": "Поліщук Богдана Андріївна",
+      "group": "62-МДП",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2F61-MDP.webp?alt=media"
+    },
+    {
+      "name": "Крючкова Тетяна Віталіївна",
+      "group": "62–2МДО",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2F61-2MDO.webp?alt=media"
+    }
+  ],
+  "physical": [
+    {
+      "name": "Хилько Анастасія Олександрівна",
+      "group": "13-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Fhylko-anastasiia.webp?alt=media&token=9a7b709e-4dfe-46c2-b3ec-d4f04266131f"
+    },
+    {
+      "name": "Темніков Данило В’ячеславович",
+      "group": "14-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Ftemnikov-danylo.webp?alt=media&token=ee2c07cb-cdb1-4ac5-889a-df8ea851a3a9"
+    },
+    {
+      "name": "Душина Софія Миколаївна",
+      "group": "15-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Fdushyna-sofia.webp?alt=media&token=e94f2122-fcf3-44e6-8d43-3ade5953deec"
+    },
+    {
+      "name": "Павлюк Ганна Сергіївна",
+      "group": "23-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Fpavliuk-ganna.webp?alt=media&token=7519981a-8f78-4957-92e6-b620907662e4"
+    },
+    {
+      "name": "Васюк Дар’я Андріївна",
+      "group": "25-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Flocal-government%2F2023-physical%2Fvasiuk-daria.webp?alt=media&token=a8b7a019-f893-42fc-9ee1-67a74bfc78ed"
+    },
+    {
+      "name": "Дума Анастасія Олександрівна",
+      "group": "33-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Fduma-anastasia.jpg?alt=media&token=bc8dc21f-f734-43cc-b8bf-e76556875e06"
+    },
+    {
+      "name": "Мироненко Анастасія Олександрівна",
+      "group": "43-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Fmyronenko-anastasia.webp?alt=media&token=41449280-9e56-422d-9708-508ed698a5cb"
+    },
+    {
+      "name": "Сещенко Вероніка Василівна",
+      "group": "6М-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Fseschenko-veronika.webp?alt=media&token=479e8d8a-6e60-4703-b3fc-c44a95ccf754"
+    },
+    {
+      "name": "Баранов Андрій Миколайович",
+      "group": "6М2-ФК",
+      "imageURL": "https://firebasestorage.googleapis.com/v0/b/fdo-gnpu.appspot.com/o/student%2Fstarostat%2Fphysical-2023%2Fbaranov-andrii.webp?alt=media&token=3db06755-11eb-4ab5-8c46-8b21a0635d0e"
+    }
+  ]
+}

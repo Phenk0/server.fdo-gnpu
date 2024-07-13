@@ -1,0 +1,301 @@
+[
+  {
+    "title": "Про факультет",
+    "path": "about",
+    "children": [
+      {
+        "title": "Деканат",
+        "path": "about/deanery"
+      },
+      {
+        "title": "Кафедри",
+        "path": "about/departments",
+        "children": [
+          {
+            "title": "Кафедра дошкільної педагогіки і психології",
+            "path": "about/departments/kdpp"
+          },
+          {
+            "title": "Кафедра теорії і методики дошкільної освіти",
+            "path": "about/departments/ktmdo"
+          },
+          {
+            "title": "Кафедра теорії і методики фізичного виховання",
+            "path": "about/departments/ktmfv"
+          }
+        ]
+      },
+      {
+        "title": "Вчена рада",
+        "path": "about/academic-council-personnel",
+        "children": [
+          {
+            "title": "Склад вченої ради факультету",
+            "path": "about/academic-council-personnel"
+          }
+        ]
+      },
+      {
+        "title": "Нормативні документи",
+        "path": "about/regulations"
+      },
+      {
+        "title": "Рада стейкхолдерів",
+        "path": "about/stakeholders",
+        "children": [
+          {
+            "title": "Склад ради стейкхолдерів",
+            "path": "about/stakeholders/personnel"
+          },
+          {
+            "title": "План роботи ради стейкхолдерів",
+            "path": "about/stakeholders/plan"
+          },
+          {
+            "title": "Положення про раду стейкхолдерів",
+            "path": "about/stakeholders/provisions"
+          }
+        ]
+      },
+      {
+        "title": "Профорієнтаційна робота",
+        "path": "about/proforientation"
+      },
+      {
+        "title": "Матеріально-технічна база",
+        "path": "about/mtb"
+      }
+    ]
+  },
+  {
+    "title": "Навчання",
+    "path": "discipline",
+    "children": [
+      {
+        "title": "Графік освітнього процесу",
+        "path": "discipline/educational-schedule"
+      },
+      {
+        "title": "Розклад атестації здобувачів освіти",
+        "path": "discipline/examination",
+        "children": [
+          {
+            "title": "Розклад підсумкової атестації",
+            "path": "discipline/examination/attestation-schedule"
+          },
+          {
+            "title": "Розклад заліково-екзаменаційної сесії",
+            "path": "discipline/examination/session-schedule"
+          }
+        ]
+      },
+      {
+        "title": "Освітні програми",
+        "path": "discipline/programs"
+      },
+      {
+        "title": "Нормативні ОК",
+        "path": "discipline/regulatory-ok"
+      },
+      {
+        "title": "Вибіркові ОК",
+        "path": "discipline/selective-ok"
+      },
+      {
+        "title": "Дуальна освіта",
+        "path": "discipline/dual"
+      },  {
+        "title": "Неформальна освіта",
+        "path": "discipline/non-formal-education"
+      },
+      {
+        "title": "Академічна мобільність",
+        "path": "discipline/academic-mobility"
+      },
+      {
+        "title": "Практична підготовка",
+        "path": "discipline/practices",
+        "children": [
+          {
+            "title": "Новини педагогічної практики",
+            "path": "discipline/practices/news"
+          },
+          {
+            "title": "Програми педагогічних практик",
+            "path": "discipline/practices/programs"
+          },
+          {
+            "title": "Угоди з базами практик",
+            "path": "discipline/practices/agreements"
+          }
+        ]
+      },
+      {
+        "title": "Результати атестації",
+        "path": "discipline/results-attestation",
+        "children": [
+          {
+            "title": "Результати проміжної атестації",
+            "path": "discipline/results-attestation/pre"
+          },
+          {
+            "title": "Результати семестрової атестації",
+            "path": "discipline/results-attestation/semi"
+          },
+          {
+            "title": "Результати підсумкової атестації",
+            "path": "discipline/results-attestation/final"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Наука",
+    "path": "science",
+    "children": [
+      {
+        "title": "Науково-дослідні лабораторії",
+        "path": "science/research",
+        "children": [
+          {
+            "title": "Інноваційні спортивно-педагогічні технології",
+            "path": "science/research/sport-lab",
+            "children": [
+              {
+                "title": "Професорсько-викладацький склад лабораторії",
+                "path": "science/research/sport-lab/personnel"
+              },
+              {
+                "title": "План  роботи лабораторії",
+                "path": "science/research/sport-lab/plan"
+              },
+              {
+                "title": "Звіт про діяльність науково-дослідної лабораторії за минулий рік",
+                "path": "science/research/sport-lab/report"
+              }
+            ]
+          },
+          {
+            "title": "Здоров'я дитини",
+            "path": "science/research/child-health",
+            "children": [
+              {
+                "title": "Професорсько-викладацький склад лабораторії",
+                "path": "science/research/child-health/personnel"
+              },
+              {
+                "title": "План  роботи лабораторії",
+                "path": "science/research/child-health/plan"
+              },
+              {
+                "title": "Звіт про діяльність науково-дослідної лабораторії за минулий рік",
+                "path": "science/research/child-health/report"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Міжнародна діяльність",
+        "path": "science/international",
+        "children": [
+          {
+            "title": "Еразмус+, модуль  Жан Моне",
+            "path": "science/international/jean-monnet"
+          }
+        ]
+      },
+      {
+        "title": "Впроваджуємо LEGO-технології",
+        "path": "science/lego"
+      }
+    ]
+  },
+  {
+    "title": "Здобувачам освіти",
+    "path": "student",
+    "children": [
+      {
+        "title": "Студентське самоврядування",
+        "path": "student/local-government"
+      },
+      {
+        "title": "Старостат",
+        "path": "student/starostat"
+      },
+      {
+        "title": "Рейтинг успішності",
+        "path": "student/rating"
+      },
+      {
+        "title": "Студентська наука",
+        "path": "student/science"
+      },
+      {
+        "title": "«Здорова дитина – здорова нація»",
+        "path": "student/science-project-contest-zdzn"
+      },
+      {
+        "title": "Позанавчальна робота",
+        "path": "student/extracurricular"
+      },
+      {
+        "title": "Наша гордість",
+        "path": "student/pride"
+      }
+    ]
+  },
+  {
+    "title": "Аспірантура",
+    "path": "postgraduate",
+    "children": [
+      {
+        "title": "ОНП Дошкільна освіта",
+        "path": "postgraduate/onp"
+      },
+      {
+        "title": "Навчальні плани",
+        "path": "postgraduate/plans"
+      },
+      {
+        "title": "Силабуси",
+        "path": "postgraduate/syllabus"
+      },
+      {
+        "title": "Аспіранти",
+        "path": "postgraduate/postgraduates"
+      },
+      {
+        "title": "Кадрове забезпечення",
+        "path": "postgraduate/personnel"
+      }
+    ]
+  },
+  {
+    "title": "Вступникам",
+    "path": "entrants",
+    "children": [
+      {
+        "title": "Новини вступної кампанії",
+        "path": "entrants/news"
+      },
+      {
+        "title": "Вступ для здобуття освіти іноземцям та особам без громадянства",
+        "path": "entrants/introduction"
+      },
+      {
+        "title": "Спеціальності факультету",
+        "path": "entrants/specialties"
+      },
+      {
+        "title": "Правила прийому",
+        "path": "entrants/rules"
+      }
+    ]
+  },
+  {
+    "title": "Скринька довіри",
+    "path": "etc/trust-mailbox"
+  }
+]
