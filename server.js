@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const News = require("./models/newsModel");
-const oldNews = require("./data/announcements-list.json");
 
 //adds config.env data to process.env
 dotenv.config({ path: "./config.env" });

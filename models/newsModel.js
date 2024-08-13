@@ -4,13 +4,20 @@ const newsSchema = new Schema({
   // id: "865",
   tags: { type: [String], required: true, default: ["news"] },
   title: { type: String /*, required: [true, "Новина має містити назву"] */ },
-  shortCut: String,
+  shortCut: { type: String, trim: true },
   imagesList: { type: [String] },
   text: { type: [String] },
   component: { type: String },
-  pdfUrl: String,
-  createdAt: { type: Date, default: new Date().toISOString() },
-  linkTo: String,
+  pdfUrl: { type: String, trim: true },
+  createdAt: {
+    type: Date,
+    required: [true, "Новина має містити вірну дату"],
+    default: new Date().toISOString(),
+  },
+  linkTo: { type: String, trim: true },
+  // For FUTURE:
+  ratingAverage: { type: Number, default: 0 },
+  ratingQuantity: { type: Number, default: 0 },
 });
 const News = model("News", newsSchema);
 
