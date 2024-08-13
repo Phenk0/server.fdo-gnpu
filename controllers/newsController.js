@@ -14,13 +14,28 @@ const News = require("../models/newsModel");
 // get all news
 exports.getAllNews = async (req, res) => {
   try {
-    const allNews = await News.find().sort({ createdAt: -1 });
+    //BUILD QUERY
+    const queryObj = { ...req.query };
+    const excludedFields = ["page", "sort", "limit", "fields"];
+    excludedFields.forEach((el) => delete queryObj[el]);
+    console.log(queryObj, req.query);
 
+    const query = News.find(queryObj)
+      // .where("tags")
+      // .equals("extracurricular")
+      .sort({
+        createdAt: -1,
+      });
+
+    //EXECUTE QUERY
+    const news = await query;
+
+    //SEND RESPONSE
     res.status(200).json({
       status: "success",
       requestedAt: req.requestTime || new Date().toISOString(),
-      result: allNews?.length,
-      data: { news: allNews },
+      result: news?.length,
+      data: { news: news },
     });
   } catch (err) {
     res.status(404).json({ status: "fail", message: err.message });
