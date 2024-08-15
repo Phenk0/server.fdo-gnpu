@@ -6,6 +6,7 @@ const {
   addNewsArticle,
   updateNewsArticle,
   deleteNewsArticle,
+  aliasLatestNews,
 } = require("../controllers/newsController");
 
 const router = Router();
@@ -19,6 +20,8 @@ const router = Router();
 //   }
 //   next();
 // });
+
+router.route("/latest").get(aliasLatestNews, getAllNews);
 
 router.route("/").get(getAllNews).post(addNewsArticle);
 

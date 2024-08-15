@@ -10,23 +10,34 @@ const News = require("../models/newsModel");
 //   }
 //   next();
 // };
+exports.aliasLatestNews = (req, res, next) => {
+  const oneMonthAgo = new Date();
+  oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
 
+  req.query.createdAt = {
+    gte: oneMonthAgo.toISOString(),
+  };
+  req.query.limit = 100;
+  req.query.latest = true;
+
+  next();
+};
 // get all news
 exports.getAllNews = async (req, res) => {
   try {
     //BUILD QUERY
     //1) Filter
     const queryObj = { ...req.query };
-    const excludedFields = ["page", "sort", "limit", "fields"];
-    excludedFields.forEach((el) => delete queryObj[el]);
+    const excludedFields = ["page", "sort", "limit", "fields", "latest"];
+    excludedFields.forEach((field) => delete queryObj[field]);
 
     //1A) Advanced filtering
     const queryStr = JSON.stringify(queryObj).replace(
       /\b(gt|gte|lt|lte|in|all|eq)\b/g,
-      (n) => `$${n}`,
+      (match) => `$${match}`,
     );
 
-    let query = News.find(JSON.parse(queryStr));
+    const query = News.find(JSON.parse(queryStr));
     /*ALT: .where("createdAt")
       .gte("2023-12-01");*/
     // 2) Sorting
@@ -43,11 +54,27 @@ exports.getAllNews = async (req, res) => {
       const fields = req.query.fields.split(",").join(" ");
       query.select(fields);
     } else {
-      query.select("-ratingAverage -ratingQuantity -__v");
+      query.select("-__v"); //more limiting at NewsModel
+    }
+
+    //4) Pagination
+    const page = req.query.page * 1 || 1;
+    const limit = req.query.limit * 1 || 10;
+    const skip = (page - 1) * limit;
+
+    query.skip(skip).limit(limit);
+
+    if (req.query.page) {
+      const numNews = await News.countDocuments();
+      if (skip >= numNews) throw new Error("This page does not exist");
     }
 
     //EXECUTE QUERY
-    const news = await query;
+    let news = await query;
+    //For last month news quantity less than 5 just send latest 5 news
+    if (req.query.latest && news.length < 5) {
+      news = await News.find().sort({ createdAt: -1 }).select("-__v").limit(5);
+    }
 
     //SEND RESPONSE
     res.status(200).json({
@@ -57,7 +84,7 @@ exports.getAllNews = async (req, res) => {
       data: { news },
     });
   } catch (err) {
-    res.status(404).json({ status: "fail", message: err });
+    res.status(404).json({ status: "fail", message: err.message });
   }
 };
 

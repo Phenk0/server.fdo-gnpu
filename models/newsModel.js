@@ -16,8 +16,8 @@ const newsSchema = new Schema({
   },
   linkTo: { type: String, trim: true },
   // For FUTURE:
-  ratingAverage: { type: Number, default: 0 },
-  ratingQuantity: { type: Number, default: 0 },
+  ratingAverage: { type: Number, default: 0, select: false },
+  ratingQuantity: { type: Number, default: 0, select: false },
 });
 const News = model("News", newsSchema);
 
