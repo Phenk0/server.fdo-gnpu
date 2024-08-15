@@ -15,7 +15,6 @@ const News = require("../models/newsModel");
 exports.getAllNews = async (req, res) => {
   try {
     //BUILD QUERY
-    console.log("start", req.query);
     //1) Filter
     const queryObj = { ...req.query };
     const excludedFields = ["page", "sort", "limit", "fields"];
@@ -30,22 +29,21 @@ exports.getAllNews = async (req, res) => {
     let query = News.find(JSON.parse(queryStr));
     /*ALT: .where("createdAt")
       .gte("2023-12-01");*/
-    //2) Sorting
-    // if (req.query.sort) {
-    //   const sortBy = req.query.sort.split(",").join(" ");
-    //   console.log(sortBy);
-    //   query.sort(sortBy); // just in case
-    // } else {
-    //   //ALT: query.sort("-createdAt");
-    //   query.sort({ createdAt: -1 }); //default sorting
-    // }
+    // 2) Sorting
+    if (req.query.sort) {
+      const sortBy = req.query.sort.split(",").join(" ");
+      query.sort(sortBy); // just in case
+    } else {
+      //ALT: query.sort("-createdAt");
+      query.sort({ createdAt: -1 }); //default sorting
+    }
 
     //3) Field limiting
     if (req.query.fields) {
-      const fields = req.query.fields.splite(",").join(" ");
-      query = query.populate(fields);
+      const fields = req.query.fields.split(",").join(" ");
+      query.select(fields);
     } else {
-      query = query.populate("news", "-ratingAverage - ratingQuantity");
+      query.select("-ratingAverage -ratingQuantity -__v");
     }
 
     //EXECUTE QUERY
