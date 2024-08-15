@@ -15,17 +15,38 @@ const News = require("../models/newsModel");
 exports.getAllNews = async (req, res) => {
   try {
     //BUILD QUERY
+    console.log("start", req.query);
+    //1) Filter
     const queryObj = { ...req.query };
     const excludedFields = ["page", "sort", "limit", "fields"];
     excludedFields.forEach((el) => delete queryObj[el]);
-    console.log(queryObj, req.query);
 
-    const query = News.find(queryObj)
-      // .where("tags")
-      // .equals("extracurricular")
-      .sort({
-        createdAt: -1,
-      });
+    //1A) Advanced filtering
+    const queryStr = JSON.stringify(queryObj).replace(
+      /\b(gt|gte|lt|lte|in|all|eq)\b/g,
+      (n) => `$${n}`,
+    );
+
+    let query = News.find(JSON.parse(queryStr));
+    /*ALT: .where("createdAt")
+      .gte("2023-12-01");*/
+    //2) Sorting
+    // if (req.query.sort) {
+    //   const sortBy = req.query.sort.split(",").join(" ");
+    //   console.log(sortBy);
+    //   query.sort(sortBy); // just in case
+    // } else {
+    //   //ALT: query.sort("-createdAt");
+    //   query.sort({ createdAt: -1 }); //default sorting
+    // }
+
+    //3) Field limiting
+    if (req.query.fields) {
+      const fields = req.query.fields.splite(",").join(" ");
+      query = query.populate(fields);
+    } else {
+      query = query.populate("news", "-ratingAverage - ratingQuantity");
+    }
 
     //EXECUTE QUERY
     const news = await query;
@@ -35,10 +56,10 @@ exports.getAllNews = async (req, res) => {
       status: "success",
       requestedAt: req.requestTime || new Date().toISOString(),
       result: news?.length,
-      data: { news: news },
+      data: { news },
     });
   } catch (err) {
-    res.status(404).json({ status: "fail", message: err.message });
+    res.status(404).json({ status: "fail", message: err });
   }
 };
 
