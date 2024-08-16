@@ -12,7 +12,7 @@ const newsSchema = new Schema({
   createdAt: {
     type: Date,
     required: [true, "Новина має містити вірну дату"],
-    default: new Date().toISOString(),
+    default: () => new Date(),
   },
   linkTo: { type: String, trim: true },
   // For FUTURE:

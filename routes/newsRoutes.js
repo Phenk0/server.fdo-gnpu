@@ -6,7 +6,7 @@ const {
   addNewsArticle,
   updateNewsArticle,
   deleteNewsArticle,
-  aliasLatestNews,
+  getLatestNews,
 } = require("../controllers/newsController");
 
 const router = Router();
@@ -21,9 +21,9 @@ const router = Router();
 //   next();
 // });
 
-router.route("/latest").get(aliasLatestNews, getAllNews);
-
 router.route("/").get(getAllNews).post(addNewsArticle);
+
+router.route("/latest").get(getLatestNews);
 
 //"/api/v1/news/:id/:type?"  TYPE can be optional parameter!
 router
