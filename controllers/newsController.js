@@ -31,7 +31,7 @@ exports.getAllNews = async (req, res) => {
     res.status(200).json({
       status: "success",
       requestedAt: req.requestTime || new Date().toISOString(),
-      result: news?.length,
+      results: news?.length,
       data: { news },
     });
   } catch (err) {
@@ -45,6 +45,8 @@ exports.getLatestNews = async (req, res) => {
   oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
   try {
     let news = await News.find()
+      .where("tags")
+      .in(["NEWS"])
       .where("createdAt")
       .gte(+oneMonthAgo)
       .sort("-createdAt")
@@ -52,13 +54,18 @@ exports.getLatestNews = async (req, res) => {
       .limit(100);
 
     if (news.length < 5) {
-      news = await News.find().sort({ createdAt: -1 }).select("-__v").limit(5);
+      news = await News.find()
+        .where("tags")
+        .in(["NEWS"])
+        .sort({ createdAt: -1 })
+        .select("-__v")
+        .limit(5);
     }
     //SEND RESPONSE
     res.status(200).json({
       status: "success",
       requestedAt: req.requestTime || new Date().toISOString(),
-      result: news?.length,
+      results: news?.length,
       data: { news },
     });
   } catch (err) {
@@ -117,6 +124,62 @@ exports.deleteNewsArticle = async (req, res) => {
     return res.status(204).json({
       status: "success",
       data: null,
+    });
+  } catch (err) {
+    res.status(404).json({ status: "fail", message: err.message });
+  }
+};
+
+exports.getNewsStats = async (req, res) => {
+  try {
+    const stats = await News.aggregate([
+      // separate by tags -- only for mixed tags
+      { $unwind: "$tags" },
+
+      // Group by tags and count the occurrences
+      {
+        $group: {
+          _id: {
+            tag: { $toUpper: "$tags" },
+            year: { $year: "$createdAt" },
+          },
+          count: { $sum: 1 },
+          countImages: { $sum: { $size: "$imagesList" } },
+        },
+      },
+      {
+        $addFields: {
+          tag: "$_id.tag",
+          year: "$_id.year",
+        },
+      },
+      //remove -_id- from data response
+      {
+        $project: {
+          _id: 0,
+        },
+      },
+      { $sort: { count: -1 } },
+    ]);
+
+    const statsObj = stats.reduce((acc, stat) => {
+      const { tag, year, count, countImages } = stat;
+      if (!acc[tag]) {
+        acc[tag] = {};
+      }
+      acc[tag][year] = {
+        count,
+        countImages,
+      };
+
+      return acc;
+    }, {});
+
+    //SEND RESPONSE
+    res.status(200).json({
+      status: "success",
+      requestedAt: req.requestTime || new Date().toISOString(),
+      data: { stats: statsObj },
     });
   } catch (err) {
     res.status(404).json({ status: "fail", message: err.message });

@@ -2,7 +2,22 @@ const { Schema, model } = require("mongoose");
 
 const newsSchema = new Schema({
   // id: "865",
-  tags: { type: [String], required: true, default: ["news"] },
+  tags: {
+    type: [String],
+    required: true,
+    enum: [
+      "NEWS",
+      "EVENT",
+      "GUEST_LECTURE",
+      "PRACTICE",
+      "EXTRACURRICULAR",
+      "STUDENT_SCIENCE",
+      "VACANCIES",
+      "PRIDE",
+      "TEST",
+    ],
+    default: ["NEWS"],
+  },
   title: { type: String /*, required: [true, "Новина має містити назву"] */ },
   shortCut: { type: String, trim: true },
   imagesList: { type: [String] },
@@ -12,13 +27,17 @@ const newsSchema = new Schema({
   createdAt: {
     type: Date,
     required: [true, "Новина має містити вірну дату"],
-    default: () => new Date(),
+    default: Date.now, //Date.now() or new Date() will freeze time at startServer point; ALT: ()=>new Date()
+  },
+  endsAt: {
+    type: Date,
   },
   linkTo: { type: String, trim: true },
   // For FUTURE:
   ratingAverage: { type: Number, default: 0, select: false },
   ratingQuantity: { type: Number, default: 0, select: false },
 });
+
 const News = model("News", newsSchema);
 
 module.exports = News;

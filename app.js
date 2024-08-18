@@ -3,6 +3,7 @@ const morgan = require("morgan");
 
 // importing ROUTES
 const newsRouter = require("./routes/newsRoutes");
+const staffRouter = require("./routes/staffRoutes");
 const usersRouter = require("./routes/usersRoutes");
 
 const app = express();
@@ -23,6 +24,7 @@ app.use((req, res, next) => {
 
 //apply ROUTES via middlewares
 app.use("/api/v1/news", newsRouter);
+app.use("/api/v1/staff", staffRouter);
 app.use("/api/v1/users", usersRouter);
 
 module.exports = app;
