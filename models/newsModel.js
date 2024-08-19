@@ -36,6 +36,13 @@ const newsSchema = new Schema({
   // For FUTURE:
   ratingAverage: { type: Number, default: 0, select: false },
   ratingQuantity: { type: Number, default: 0, select: false },
+  hidden: { type: Boolean, default: false },
+});
+
+// QUERY MIDDLEWARE
+newsSchema.pre(/^find/, function (next) {
+  this.find().where("hidden").ne(true).select("-hidden");
+  next();
 });
 
 const News = model("News", newsSchema);
