@@ -1,5 +1,5 @@
 const News = require("../models/newsModel");
-const { processQuery } = require("../utils/processQuery");
+const QueryProcessor = require("../utils/processQuery");
 
 // MIDDLEWARE: new news validation
 // exports.validateNewsArticle = (req, res, next) => {
@@ -22,10 +22,12 @@ const { processQuery } = require("../utils/processQuery");
 exports.getAllNews = async (req, res) => {
   try {
     // //BUILD QUERY
-    const query = await processQuery(News, req.query, "-createdAt");
+    // const query = await processQuery(News, req.query, "-createdAt");
+    const query = new QueryProcessor(News, req.query);
+    query.filter().sort("-createdAt").limitFields().paginate();
 
     //EXECUTE QUERY
-    const news = await query;
+    const news = await query.query;
 
     //SEND RESPONSE
     res.status(200).json({
