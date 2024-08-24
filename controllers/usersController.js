@@ -33,7 +33,7 @@ exports.getUser = (req, res) => {
 };
 
 exports.createUser = (req, res) => {
-  const newId = users[users.length - 1].id * 1 + 1;
+  const newId = Number(users[users.length - 1].id) + 1;
 
   const newUser = { id: newId, ...req.body };
 

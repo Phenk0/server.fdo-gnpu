@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "NODE_ENV=production node server.js",
+    "start": "NODE_ENV=production nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "import-dev-data": "node data/import-dev-data.js --import",
     "delete-dev-data": "node data/import-dev-data.js --delete"

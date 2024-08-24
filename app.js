@@ -31,7 +31,7 @@ app.use("/api/v1/staff", staffRouter);
 app.use("/api/v1/users", usersRouter);
 
 app.all("*", (req, res, next) => {
-  next(new AppError(`Can't find ${req.originalUrl} on this server`, 404));
+  next(new AppError(`Не знайдено ${req.originalUrl} на цьому сервері`, 404));
 });
 
 app.use(globalErrorHandler);
