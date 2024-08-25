@@ -22,6 +22,8 @@ app.use(express.static(`${__dirname}/public`));
 //MIDDLEWARE: add request time to all requests
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
+
+  console.log("app.js:26", req.headers);
   next();
 });
 

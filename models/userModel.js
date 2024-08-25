@@ -56,6 +56,7 @@ const userSchema = new Schema({
     default: "user",
   },
   roleRequested: String,
+  passwordChangedAt: { type: Date },
 });
 
 // Password confirmation validation and encryption
@@ -96,5 +97,16 @@ userSchema.pre("save", function (next) {
 
 userSchema.methods.comparePassword = async (candidatePassword, userPassword) =>
   await bcrypt.compare(candidatePassword, userPassword);
+
+userSchema.methods.changedPasswordAfter = function (JWTTimestamp) {
+  if (this.passwordChangedAt) {
+    const changedTimestamp = parseInt(
+      this.passwordChangedAt.getTime() / 1000,
+      10,
+    );
+    return JWTTimestamp < changedTimestamp;
+  }
+  return false;
+};
 
 module.exports = model("User", userSchema);

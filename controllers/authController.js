@@ -1,3 +1,4 @@
+const { promisify } = require("util");
 const jwt = require("jsonwebtoken");
 
 const User = require("../models/userModel");
@@ -51,3 +52,54 @@ exports.login = catchAsync(async (req, res, next) => {
     token,
   });
 });
+
+exports.logout = catchAsync(async (req, res, next) => {
+  next();
+});
+
+exports.protect = catchAsync(async (req, res, next) => {
+  //1) Get token and check if it's there
+  let token = "";
+  if (req.headers.authorization?.startsWith("Bearer")) {
+    token = req.headers.authorization.split(" ")[1];
+  }
+
+  if (!token) {
+    return next(
+      new AppError(
+        "Ви не авторизовані! Будь-ласка, авторизуйтеся, щоб отримати доступ",
+        401,
+      ),
+    );
+  }
+
+  //2) Verify token -- promisify - convert callback to promise(throws caught error)
+  const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
+
+  //3) Check if user still exists
+  const user = await User.findById(decoded.id);
+  if (!user) {
+    return next(
+      new AppError("Користувача з наданим токеном більше не існує", 401),
+    );
+  }
+
+  //4) Check if user changed password after the token was issued
+  if (user.changedPasswordAfter(decoded.iat)) {
+    return next(
+      new AppError(
+        "Нещодавно користувач змінив пароль. Будь-ласка, авторизуйтеся ще раз",
+        401,
+      ),
+    );
+  }
+
+  //5) Grant access to protected route
+  req.user = user;
+  next();
+});
+
+exports.restrictTo = (...roles) =>
+  catchAsync(async (req, res, next) => {
+    next();
+  });

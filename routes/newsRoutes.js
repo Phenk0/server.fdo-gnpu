@@ -9,6 +9,7 @@ const {
   getLatestNews,
   getNewsStats,
 } = require("../controllers/newsController");
+const { protect } = require("../controllers/authController");
 
 const router = Router();
 
@@ -22,7 +23,7 @@ const router = Router();
 //   next();
 // });
 
-router.route("/").get(getAllNews).post(addNewsArticle);
+router.route("/").get(getAllNews).post(protect, addNewsArticle);
 
 router.route("/latest").get(getLatestNews);
 router.route("/stats").get(getNewsStats);
@@ -31,7 +32,7 @@ router.route("/stats").get(getNewsStats);
 router
   .route("/:id")
   .get(getNewsArticle)
-  .patch(updateNewsArticle)
-  .delete(deleteNewsArticle);
+  .patch(protect, updateNewsArticle)
+  .delete(protect, deleteNewsArticle);
 
 module.exports = router;
