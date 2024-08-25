@@ -92,14 +92,13 @@ exports.updateNewsArticle = catchAsync(async (req, res, next) => {
     new: true,
     runValidators: true,
   });
+
   if (!newsArticle) {
     return next(new AppError("Новина за таким ID не знайдена", 404));
   }
   res.status(200).json({
     status: "success",
-    data: {
-      newsArticle,
-    },
+    data: { newsArticle },
   });
 });
 

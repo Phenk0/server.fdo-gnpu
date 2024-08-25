@@ -9,7 +9,7 @@ const userSchema = new Schema({
     trim: true,
     lowercase: true,
     match: [
-      /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/,
+      /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/,
       "Вкажіть дійсну електронну пошту",
     ],
   },
@@ -93,5 +93,8 @@ userSchema.pre("save", function (next) {
   }
   next();
 });
+
+userSchema.methods.comparePassword = async (candidatePassword, userPassword) =>
+  await bcrypt.compare(candidatePassword, userPassword);
 
 module.exports = model("User", userSchema);

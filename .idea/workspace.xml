@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb7ec90-f885-4d96-b466-d854d9333c63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/errorController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/errorController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/newsModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/newsModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/stuffModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/stuffModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/newsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/newsController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/usersController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/usersController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/usersRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/usersRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/appQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/appQuery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "22.7.0",
@@ -66,7 +69,7 @@
     "ts.external.directory.path": "/opt/intellij-idea-ultimate-edition/plugins/javascript-plugin/jsLanguageServicesImpl/external"
   }
 }]]></component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="delete-dev-data" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -109,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.import-dev-data" />
         <item itemvalue="npm.delete-dev-data" />
       </list>
@@ -147,7 +150,7 @@
       <workItem from="1724518256345" duration="6572000" />
       <workItem from="1724564571238" duration="65000" />
       <workItem from="1724564647244" duration="9148000" />
-      <workItem from="1724574126741" duration="5532000" />
+      <workItem from="1724574126741" duration="16626000" />
     </task>
     <servers />
   </component>

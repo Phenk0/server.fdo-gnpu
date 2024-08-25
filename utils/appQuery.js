@@ -6,6 +6,7 @@ class AppQuery {
     this.queryRaw = queryRaw;
     this.query = null;
   }
+
   filter() {
     const queryObj = { ...this.queryRaw };
 
@@ -21,7 +22,7 @@ class AppQuery {
     return this;
   }
 
-  sort(defaultSortBy = "") {
+  sort(defaultSortBy) {
     if (this.queryRaw.sort) {
       const sortBy = this.queryRaw.sort.split(",").join(" ");
       this.query.sort(sortBy);
@@ -47,12 +48,13 @@ class AppQuery {
     const limit = Number(this.queryRaw.limit) || 10;
     const skip = (page - 1) * limit;
 
-    this.query.skip(skip).limit(limit);
-
     if (this.queryRaw.page) {
       const numDocs = await this.Model.countDocuments();
-      if (skip >= numDocs) throw new AppError("This page does not exist", 404);
+      if (skip >= numDocs) throw new AppError("Такої сторінки не існує", 404);
     }
+
+    this.query.skip(skip).limit(limit);
+
     return this;
   }
 }
