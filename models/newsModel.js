@@ -1,7 +1,6 @@
 const { Schema, model } = require("mongoose");
 
 const newsSchema = new Schema({
-  // id: "865",
   tags: {
     type: [String],
     required: true,

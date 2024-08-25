@@ -40,7 +40,7 @@ module.exports = (err, req, res, next) => {
     }
     if (error.code === 11000) {
       error = new AppError(
-        `Значення поля '${Object.keys(err.keyValue)[0]}' дублюється: ${Object.values(err.keyValue)[0]}. Будь ласка, використайте інше значення!`,
+        `Значення поля '${Object.keys(err.keyValue)[0]}' вже існує: ${Object.values(err.keyValue)[0]}. Будь ласка, використайте інше значення!`,
         400,
       );
     }
