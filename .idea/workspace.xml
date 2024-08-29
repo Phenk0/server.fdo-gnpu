@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3bb7ec90-f885-4d96-b466-d854d9333c63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/newsRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/newsRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +144,12 @@
       <workItem from="1724564571238" duration="65000" />
       <workItem from="1724564647244" duration="9148000" />
       <workItem from="1724574126741" duration="22552000" />
-      <workItem from="1724606839923" duration="3559000" />
+      <workItem from="1724606839923" duration="3597000" />
+      <workItem from="1724729656476" duration="23000" />
+      <workItem from="1724729688641" duration="1190000" />
+      <workItem from="1724860268440" duration="29000" />
+      <workItem from="1724860309605" duration="5595000" />
+      <workItem from="1724942321464" duration="403000" />
     </task>
     <servers />
   </component>

@@ -9,7 +9,7 @@ const {
   getLatestNews,
   getNewsStats,
 } = require("../controllers/newsController");
-const { protect } = require("../controllers/authController");
+const { protect, restrictTo } = require("../controllers/authController");
 
 const router = Router();
 
@@ -23,7 +23,10 @@ const router = Router();
 //   next();
 // });
 
-router.route("/").get(getAllNews).post(protect, addNewsArticle);
+router
+  .route("/")
+  .get(getAllNews)
+  .post(protect, restrictTo("admin", "moderator"), addNewsArticle);
 
 router.route("/latest").get(getLatestNews);
 router.route("/stats").get(getNewsStats);
