@@ -1,3 +1,4 @@
+const crypto = require("crypto");
 const { Schema, model } = require("mongoose");
 const bcrypt = require("bcryptjs");
 
@@ -57,6 +58,8 @@ const userSchema = new Schema({
   },
   roleRequested: String,
   passwordChangedAt: { type: Date },
+  passwordResetToken: String,
+  passwordResetExpires: Date,
 });
 
 // Password confirmation validation and encryption
@@ -82,8 +85,8 @@ userSchema.pre("save", async function (next) {
 userSchema.pre("save", function (next) {
   if (this.isModified("name") || !this.nameShort) {
     this.nameShort = `${this.name.split(" ")[1]} ${this.name.split(" ")[0][0]}.`;
-    next();
   }
+  next();
 });
 
 // Sanitizing user role
@@ -107,6 +110,20 @@ userSchema.methods.changedPasswordAfter = function (JWTTimestamp) {
     return JWTTimestamp < changedTimestamp;
   }
   return false;
+};
+
+userSchema.methods.createPasswordResetToken = function () {
+  const resetToken = crypto.randomBytes(32).toString("hex");
+
+  this.passwordResetToken = crypto
+    .createHash("sha256")
+    .update(resetToken)
+    .digest("hex");
+
+  console.log({ resetToken }, { passResetToken: this.passwordResetToken });
+
+  this.passwordResetExpires = Date.now() + 1000 * 60 * 10;
+  return resetToken;
 };
 
 module.exports = model("User", userSchema);

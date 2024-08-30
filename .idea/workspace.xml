@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb7ec90-f885-4d96-b466-d854d9333c63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/email.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/userModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/userModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/newsRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/newsRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/usersRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/usersRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +152,8 @@
       <workItem from="1724729688641" duration="1190000" />
       <workItem from="1724860268440" duration="29000" />
       <workItem from="1724860309605" duration="5595000" />
-      <workItem from="1724942321464" duration="403000" />
+      <workItem from="1724942321464" duration="7573000" />
+      <workItem from="1724984095595" duration="4644000" />
     </task>
     <servers />
   </component>
