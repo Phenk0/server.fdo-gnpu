@@ -59,6 +59,7 @@ exports.logout = catchAsync(async (req, res, next) => {
   next();
 });
 
+// Routes only for logged-in users
 exports.protect = catchAsync(async (req, res, next) => {
   //1) Get token and check if it's there
   let token = "";
@@ -183,4 +184,29 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
     status: "success",
     token,
   });
+});
+
+exports.updatePassword = catchAsync(async (req, res, next) => {
+  //1) Get user from collection
+  req.user._id;
+  const user = await User.findById(req.user._id).select("+password");
+  if (!user)
+    return next(
+      new AppError(
+        "Немає активного користувача, будь ласка увійдіть знову",
+        401,
+      ),
+    );
+
+  //2) Check if POSTed current password is correct
+  if (!(await user.comparePassword(req.body.passwordCurrent, user.password)))
+    return next(new AppError("Невірний пароль", 401));
+  //3) If so, update password
+  user.password = req.body.password;
+  user.passwordConfirm = req.body.passwordConfirm;
+  await user.save();
+
+  //4) Log user in, send JWT
+  const token = signToken(user._id);
+  res.status(200).json({ status: "success", token });
 });
