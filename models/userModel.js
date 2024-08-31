@@ -56,10 +56,11 @@ const userSchema = new Schema({
     enum: ["user", "student", "teacher", "moderator", "admin"],
     default: "user",
   },
-  roleRequested: String,
+  roleRequested: { type: String, select: false },
   passwordChangedAt: { type: Date },
   passwordResetToken: String,
   passwordResetExpires: Date,
+  active: { type: Boolean, default: true, select: false },
 });
 
 // Password confirmation validation and encryption
@@ -120,6 +121,11 @@ userSchema.pre("save", function (next) {
   next();
 });
 
+userSchema.pre(/^find/, function (next) {
+  this.find().where("active").ne(false);
+  next();
+});
+
 // method for comparing given password with stored encrypted password
 userSchema.methods.comparePassword = async (candidatePassword, userPassword) =>
   await bcrypt.compare(candidatePassword, userPassword);
@@ -135,6 +141,7 @@ userSchema.methods.changedPasswordAfter = function (JWTTimestamp) {
   return false;
 };
 
+// method for creating password reset token on -forgotPassword- routeHandler
 userSchema.methods.createPasswordResetToken = function () {
   const resetToken = crypto.randomBytes(32).toString("hex");
 
@@ -142,8 +149,6 @@ userSchema.methods.createPasswordResetToken = function () {
     .createHash("sha256")
     .update(resetToken)
     .digest("hex");
-
-  console.log({ resetToken }, { passResetToken: this.passwordResetToken });
 
   this.passwordResetExpires = Date.now() + 1000 * 60 * 10;
   return resetToken;
