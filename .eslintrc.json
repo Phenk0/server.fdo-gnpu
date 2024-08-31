@@ -27,7 +27,8 @@
     ],
     "no-unused-vars": [
       "error",
-      { "argsIgnorePattern": "req|res|next|value|_" }
+      { "argsIgnorePattern": "req|res|next|value|_",
+        "varsIgnorePattern": "_"}
     ],
     "node/no-unsupported-features/es-syntax": [
       "error",

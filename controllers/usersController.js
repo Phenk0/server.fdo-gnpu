@@ -2,6 +2,7 @@ const User = require("../models/userModel");
 const AppError = require("../utils/appError");
 const AppQuery = require("../utils/appQuery");
 const { catchAsync } = require("../utils/catchAsync");
+const { filterBodyObj } = require("../utils/filterBodyObj");
 
 // const users = [
 //   { id: 1, name: "John Doe" },
@@ -15,13 +16,45 @@ exports.getAllUsers = catchAsync(async (req, res, next) => {
   const users = await query.query;
 
   if (!users?.length) {
-    return res.status(404).json({ status: "fail", message: "No users found" });
+    return res
+      .status(404)
+      .json({ status: "fail", message: "Користувачі відсутні" });
   }
   return res.status(200).json({
     status: "success",
     requestedAt: req.requestTime,
     results: users.length,
     data: { users },
+  });
+});
+
+exports.updateMe = catchAsync(async (req, res, next) => {
+  // 1) Create error if user POSTs password data
+  if (req.body.password || req.body.passwordConfirm) {
+    return next(
+      new AppError(
+        "Цей маршрут не призначений для оновлення паролів користувача. Будь ласка, використайте 'users/updatePassword'",
+        400,
+      ),
+    );
+  }
+
+  // 2) Update user document
+  const filteredBody = filterBodyObj(
+    req.body,
+    "name",
+    "email",
+    "photo",
+    "roleRequested",
+  );
+
+  const updatedUser = await User.findByIdAndUpdate(req.user._id, filteredBody, {
+    new: true,
+    runValidators: true,
+  });
+  res.status(200).json({
+    status: "success",
+    data: { user: updatedUser },
   });
 });
 

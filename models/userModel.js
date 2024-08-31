@@ -81,11 +81,27 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-// Adding short name like: "Іван І."
+// Adding short name like: "Іван І." on save
 userSchema.pre("save", function (next) {
-  if (this.isModified("name") || !this.nameShort) {
-    this.nameShort = `${this.name.split(" ")[1]} ${this.name.split(" ")[0][0]}.`;
+  if (this.isModified("name")) {
+    const [lastName, firstName, ..._] = this.name.split(" ");
+    this.nameShort = `${firstName} ${lastName[0]}.`;
   }
+  next();
+});
+// Adding short name like: "Іван І." on update
+userSchema.pre("findOneAndUpdate", function (next) {
+  const update = this.getUpdate();
+
+  if (update.name) {
+    const [lastName, firstName, ..._] = update.name.split(" ");
+    const shortName = `${firstName} ${lastName[0]}.`;
+    this.setUpdate({
+      ...update,
+      nameShort: shortName,
+    });
+  }
+
   next();
 });
 
@@ -104,6 +120,7 @@ userSchema.pre("save", function (next) {
   next();
 });
 
+// method for comparing given password with stored encrypted password
 userSchema.methods.comparePassword = async (candidatePassword, userPassword) =>
   await bcrypt.compare(candidatePassword, userPassword);
 
