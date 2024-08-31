@@ -1,6 +1,6 @@
 {
   "name": "fdo--mongo-express-server",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "server for fdo.gnpu.edu.ua",
   "main": "app.js",
   "engines": {
@@ -23,7 +23,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "express-mongo-sanitize": "^2.2.0",
-    "express-rate-limit": "^7.3.1",
+    "express-rate-limit": "^7.4.0",
     "helmet": "^7.1.0",
     "hpp": "^0.2.3",
     "html-to-text": "^9.0.5",
