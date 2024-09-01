@@ -68,11 +68,18 @@ const newsSchema = new Schema({
   },
   ratingQuantity: { type: Number, default: 0, select: false },
   hidden: { type: Boolean, default: false },
+  authors: [{ type: Schema.Types.ObjectId, ref: "User" }],
 });
 
 // QUERY MIDDLEWARE
 newsSchema.pre(/^find/, function (next) {
   this.find().where("hidden").ne(true).select("-hidden");
+  next();
+});
+
+// gives whole user object to news.authors on find or findById
+newsSchema.pre(["find", "findOne"], function (next) {
+  this.populate({ path: "authors", select: "-__v -passwordChangedAt" });
   next();
 });
 // removes -hidden- from aggregate query
