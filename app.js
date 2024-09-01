@@ -2,6 +2,9 @@ const express = require("express");
 const morgan = require("morgan");
 const rateLimit = require("express-rate-limit");
 const helmet = require("helmet");
+const mongoSanitize = require("express-mongo-sanitize");
+const hpp = require("hpp");
+const sanitizeMiddleware = require("./utils/sanitizeMiddleware");
 
 const AppError = require("./utils/appError");
 const globalErrorHandler = require("./controllers/errorController");
@@ -36,13 +39,28 @@ app.use(
   }),
 );
 
+// Data sanitization against NoSQL query injection
+app.use(
+  mongoSanitize({
+    onSanitize: ({ req, key }) => {
+      console.warn(`This request[${key}] is sanitized`, req[key]);
+    },
+    replaceWith: "_",
+  }),
+);
+
+// Data sanitization against XSS
+app.use(sanitizeMiddleware);
+
+// Prevent parameter pollution (removes duplicate query params and returns the last one)
+app.use(hpp());
+
 // Serve static files
 app.use(express.static(`${__dirname}/public`));
 
 // Add request time to all requests
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-
   next();
 });
 

@@ -24,6 +24,7 @@ class AppQuery {
 
   sort(defaultSortBy) {
     if (this.queryRaw.sort) {
+      console.log(this.queryRaw.sort);
       const sortBy = this.queryRaw.sort.split(",").join(" ");
       this.query.sort(sortBy);
     } else {
